@@ -6,14 +6,31 @@ date: 2026-09-12 09:00:00 -0000
 virtual: false
 physical: true
 hybrid: false
-description: | 
-    <p>Day of Data Detroit 2026 will be a free, community-driven, in-person data and AI event serving Detroit, Southeast Michigan, and the broader Michigan technology community.</p>
-    <p>We are planning for approximately 100 attendees, bringing together data professionals, developers, architects, analysts, AI practitioners, students, technology leaders, and community members for technical learning, knowledge sharing, networking, and professional development.</p>
-    <p>Topics may include SQL Server, Azure SQL Database, Microsoft Fabric, Power BI, Azure Data and AI, Databricks, data engineering, real-time analytics, business intelligence, data architecture, data governance, generative AI, AI agents, machine learning, and related data platform technologies.</p>
-    <p>Sessions will feature local and regional community speakers and industry practitioners. Venue, attendee registration, speaker, and schedule details will be added as they are finalized.</p>
+description: |
+    <p><strong>Day of Data Detroit 2026</strong> is a free, community-driven, in-person technical event for data professionals, developers, architects, analysts, AI practitioners, students, technology leaders, and community members across Detroit, Southeast Michigan, and the surrounding region.</p>
+    <p>We are planning for approximately 100 attendees. Registration will be required because capacity is limited. The registration link will be posted as soon as it is available.</p>
+    <h3>Why Attend?</h3>
+    <ul>
+      <li>Learn practical techniques, patterns, and lessons from experienced community speakers and industry practitioners.</li>
+      <li>See technical sessions and demos focused on real-world data, analytics, database, cloud, and AI scenarios.</li>
+      <li>Connect with fellow data professionals, speakers, students, technology leaders, sponsors, and local community members.</li>
+      <li>Build your professional network and discover new ideas for career development, certification, architecture, engineering, analytics, and AI.</li>
+    </ul>
+    <h3>Who Should Attend?</h3>
+    <p>Content is intended for a wide range of skill levels, from students and early-career professionals to experienced DBAs, developers, data engineers, BI professionals, architects, administrators, AI/ML practitioners, consultants, managers, and technology leaders.</p>
+    <h3>Topics We Are Building Around</h3>
+    <ul>
+      <li><strong>SQL Server and Azure SQL:</strong> administration, performance, development, modernization, high availability, security, and cloud database services.</li>
+      <li><strong>Microsoft Fabric and Power BI:</strong> data engineering, analytics, semantic models, Real-Time Intelligence, governance, and business intelligence.</li>
+      <li><strong>Databricks and Modern Data Engineering:</strong> lakehouse architecture, data pipelines, streaming, governance, analytics, and AI-enabled data platforms.</li>
+      <li><strong>AI and Generative AI:</strong> machine learning, AI agents, copilots, retrieval-augmented generation, responsible AI, and practical enterprise AI scenarios.</li>
+      <li><strong>Architecture, Governance, and Professional Development:</strong> data architecture, quality, security, governance, certification, career growth, and community knowledge sharing.</li>
+    </ul>
+    <p>Sessions will feature local and regional community speakers and industry practitioners. Venue, attendee registration, final speaker lineup, and schedule details will be added as they are finalized.</p>
 
 eventlocation: |
-  Detroit, Michigan, USA
+  Detroit, Michigan, USA<br/>
+  Final venue details will be posted as soon as the location is confirmed.
 
 eventlocationurl: 
 
@@ -27,9 +44,9 @@ scheduletimezone: Eastern Daylight Time UTC -4
 
 eventcountdown: true
 countdownscript: |
-    <script src="https://cdn.logwork.com/widget/countdown.js"></script><a href="https://logwork.com/countdown-71sb" class="countdown-timer" data-timezone="America/New_York" data-date="2026-09-12 09:00">Countdown</a> 
- 
-speakertext: The call for speakers will open soon. We welcome data and AI speakers from Michigan and the broader regional community.
+    <script src="https://cdn.logwork.com/widget/countdown.js"></script><a href="https://logwork.com/countdown-71sb" class="countdown-timer" data-timezone="America/New_York" data-date="2026-09-12 09:00">Countdown</a>
+
+speakertext: We are currently building the speaker lineup and welcome local and regional data professionals, Microsoft MVPs, MCTs, community speakers, and industry practitioners. If you are interested in presenting a 45-60 minute session, please email Mou Rakshit at mouraksh@umich.edu.
 speakerlisturl: 
 callforspeakersurl: 
 callforspeakers: false
@@ -43,9 +60,9 @@ organizers:
     twitter: 
     email: mouraksh@umich.edu
     url: https://www.linkedin.com/in/mourakshit/
-    
+
 volunteers:
-  description: "Volunteers are very important to a successful event. Please contact Mou Rakshit at mouraksh@umich.edu to volunteer."
+  description: "Volunteers are very important to a successful event. Volunteer opportunities may include registration and check-in, room and session support, speaker coordination, sponsor support, setup and cleanup, and attendee assistance. Please contact Mou Rakshit at mouraksh@umich.edu if you would like to help."
   volunteerurl:
 
 social:
@@ -61,20 +78,58 @@ social:
 sponsorscontacturl: 
 optInGlobalSponsor: 1
 sponsors:
-  
 
 sponsorplan: |
   <h1><a name="sponsorship">Sponsorship Plan</a></h1>
-  <p>Sponsors are very important to Day of Data Detroit 2026. Sponsorship helps us keep attendance free and supports a community event for data professionals, developers, architects, analysts, AI practitioners, students, and technology leaders across Detroit and Southeast Michigan.</p>
-  <p>Organizations working with SQL Server, Azure SQL Database, SQL Server on Azure VMs, Microsoft Fabric, Power BI, Azure Data and AI, Databricks, data engineering, analytics, AI, and related technologies are especially encouraged to participate.</p>
+  <p>Sponsors are essential to Day of Data Detroit 2026. Sponsorship helps us keep attendance free while supporting technical education, networking, speaker support, attendee food and beverages, event materials, and community engagement for approximately 100 attendees across Detroit and Southeast Michigan.</p>
+  <p>Organizations working with SQL Server, Azure SQL Database, SQL Server on Azure VMs, Microsoft Fabric, Power BI, Azure Data &amp; AI, Databricks, data engineering, analytics, AI, cloud, governance, security, developer tools, recruiting, and related technologies are especially encouraged to participate.</p>
   <h2>Sponsorship Levels</h2>
-  <p>All sponsors will be recognized on the Day of Data Detroit event page and during the event. We are also happy to discuss in-kind sponsorships such as food, beverages, attendee giveaways, raffle prizes, speaker gifts, printing, or other event support.</p>
+  <p>All sponsors will be recognized on the Day of Data Detroit event page and during the event. If you have an idea that does not fit one of the options below, please contact us. We are happy to discuss a community-friendly sponsorship or in-kind contribution.</p>
+  <style>
+    table.detroit-sponsor {
+      border-spacing: 0;
+      border-collapse: collapse;
+      width: 100%;
+      text-align: center;
+    }
+    table.detroit-sponsor th, table.detroit-sponsor td {
+      border: 1px solid #999;
+      padding: 8px;
+    }
+    table.detroit-sponsor th:first-child, table.detroit-sponsor td:first-child {
+      text-align: left;
+    }
+  </style>
+  <table class="detroit-sponsor">
+    <thead>
+      <tr>
+        <th>Benefit</th>
+        <th>Community<br/>$250</th>
+        <th>Supporting<br/>$500</th>
+        <th>Premier<br/>$1,000</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Company logo on event page</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+      <tr><td>Official sponsor recognition during the event</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+      <tr><td>Provide branded giveaways, raffle items, or recruiting materials</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+      <tr><td>Recognition in selected event communications and social media</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+      <tr><td>More prominent logo and sponsor recognition</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+      <tr><td>Premier placement and opening/closing recognition</td><td>-</td><td>-</td><td>Yes</td></tr>
+      <tr><td>Opportunity for an exhibitor table, subject to final venue availability</td><td>-</td><td>-</td><td>Yes</td></tr>
+    </tbody>
+  </table>
+  <h2>In-Kind and Community Sponsorship</h2>
+  <p>We also welcome in-kind contributions. Examples include:</p>
   <ul>
-    <li><b>Community Sponsor ($250)</b> - Company logo on the event page, official sponsor recognition, verbal recognition during the event, and the opportunity to provide branded giveaways, raffle items, or recruiting materials.</li>
-    <li><b>Supporting Sponsor ($500)</b> - Includes Community Sponsor benefits plus more prominent sponsor recognition, recognition in selected event communications and social media, and the opportunity to provide recruiting or technology-community information for attendees.</li>
-    <li><b>Premier Sponsor ($1,000)</b> - Includes Supporting Sponsor benefits plus premier placement on the event page, prominent recognition during opening and closing announcements, and enhanced visibility to the Detroit and Southeast Michigan data community.</li>
+    <li><strong>Facility / Venue Support</strong> - donated meeting space suitable for approximately 100 attendees.</li>
+    <li><strong>Lunch Sponsor</strong> - support for attendee lunch.</li>
+    <li><strong>Coffee, Water, and Snack Sponsor</strong> - beverages and refreshments during the event.</li>
+    <li><strong>Speaker Support</strong> - speaker dinner, speaker gifts, or other speaker-related expenses.</li>
+    <li><strong>Raffle / Giveaway Sponsor</strong> - books, software, training, gift cards, or other attendee prizes.</li>
+    <li><strong>Event Materials Sponsor</strong> - printing, signage, badges, supplies, or attendee materials.</li>
   </ul>
-  <h2>In-Kind Sponsorship</h2>
-  <p>We also welcome in-kind support for attendee lunch, water and snacks, speaker dinner, speaker gifts, event materials, printing, attendee giveaways, and raffle prizes.</p>
-  <p>If your organization requires a nonprofit invoice or sponsorship receipt, please contact the organizer so sponsorship processing through SQL Saturday Corporation can be coordinated.</p>
+  <p>Recognition for in-kind sponsors can be tailored to the type and value of the contribution.</p>
+  <h2>Nonprofit Sponsorship Processing</h2>
+  <p>SQL Saturday Corporation is a U.S. 501(c)(3) nonprofit organization. If your organization requires a nonprofit invoice or sponsorship receipt, please contact the organizer so sponsorship processing through SQL Saturday Corporation can be coordinated.</p>
   <p>For sponsorship opportunities, please email <a href="mailto:mouraksh@umich.edu">Mou Rakshit</a>.</p>
