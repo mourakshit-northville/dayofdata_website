@@ -27,6 +27,7 @@ description: |
       <li><strong>Architecture, Governance, and Professional Development:</strong> data architecture, quality, security, governance, certification, career growth, and community knowledge sharing.</li>
     </ul>
     <p>Sessions will feature local and regional community speakers and industry practitioners. Venue, attendee registration, final speaker lineup, and schedule details will be added as they are finalized.</p>
+    <p><strong>Community website:</strong> Day of Data Detroit is part of the volunteer-led <a href="/michigan-data-ai-community/">Michigan Data &amp; AI Community</a>, supporting technical speaking, learning, mentoring, volunteering, and community conferences across Michigan.</p>
 
 eventlocation: |
   Detroit, Michigan, USA<br/>
@@ -34,7 +35,7 @@ eventlocation: |
 
 eventlocationurl: 
 
-officialwebsite: 
+officialwebsite: https://dayofdata.org/michigan-data-ai-community/
 registrationurl: 
 capacity: 100
 googlemapurl: 
@@ -46,7 +47,7 @@ eventcountdown: true
 countdownscript: |
     <script src="https://cdn.logwork.com/widget/countdown.js"></script><a href="https://logwork.com/countdown-71sb" class="countdown-timer" data-timezone="America/New_York" data-date="2026-09-12 09:00">Countdown</a>
 
-speakertext: We are currently building the speaker lineup and welcome local and regional data professionals, Microsoft MVPs, MCTs, community speakers, and industry practitioners. If you are interested in presenting a 45-60 minute session, please email Mou Rakshit at mouraksh@umich.edu.
+speakertext: We are currently building the speaker lineup and welcome local and regional data professionals, Microsoft MVPs, MCTs, community speakers, and industry practitioners. If you are interested in presenting a 45-60 minute session, please email Mou Rakshit at mouraksh@umich.edu. Speaker and community information is also available on the Michigan Data & AI Community page.
 speakerlisturl: 
 callforspeakersurl: 
 callforspeakers: false
