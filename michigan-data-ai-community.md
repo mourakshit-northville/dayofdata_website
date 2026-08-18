@@ -108,22 +108,23 @@ The community is technology-inclusive and focuses on practical data, analytics, 
 **Date:** Saturday, September 12, 2026  
 **Event time:** 8:30 AM-5:00 PM EDT  
 **Check-in:** Begins at 8:00 AM  
-**Venue:** 1240 Woodward Avenue, Detroit, MI 48226  
-**Format:** In-person, community-driven technical conference  
-**Planned attendance:** Approximately 100 attendees  
+**Venue:** Northville District Library, 212 W Cady St, Northville, MI 48167  
+**Rooms:** Carlo Meeting Room, maximum 50 people; Friends Community Room, maximum 20 people  
+**Format:** In-person, community-driven technical conference with up to two concurrent session tracks  
+**Planned attendance:** Up to approximately 70 attendees, based on the two meeting-room capacities  
 **Registration:** Open on Eventbrite  
-**Lunch:** $15, required with public registration  
-**Parking:** Paid parking is available nearby; rates and availability vary
+**Lunch:** Optional $15 lunch ticket; free admission is available without lunch  
+**Parking:** Parking is available at and around the library; please follow posted signs and restrictions
 
 **[Register for Day of Data Detroit 2026 on Eventbrite](https://www.eventbrite.com/e/day-of-data-detroit-2026-tickets-1998135403781)**
 
 [View the official Day of Data Detroit 2026 event page](/2026-09-12-dayofdata1164/)  
-[View the venue on Google Maps](https://www.google.com/maps/search/?api=1&query=1240+Woodward+Avenue+Detroit+MI+48226)  
-[Find and compare downtown parking with ParkDetroit](https://park.detroitmi.gov/)
+[View the Northville District Library](https://northvillelibrary.org/?page_id=21083)  
+[View the venue on Google Maps](https://www.google.com/maps/search/?api=1&query=212+W+Cady+St+Northville+MI+48167)
 
-Conference admission is free. Public attendee registration includes a required **$15 lunch package** to help cover attendee lunch and event costs. Registration is required because capacity is limited.
+Conference admission is completely free. Attendees can register for free without purchasing lunch. A separate optional **$15 lunch ticket** is available for attendees who would like the event-provided lunch.
 
-A nearby public parking option listed by Visit Detroit is the **Premier Underground Garage at 1206-8 Woodward Avenue**. Parking rates and availability can change, so attendees should follow posted signage and use ParkDetroit to compare garage, lot, and metered options before arriving.
+The event will use the library's two meeting rooms, allowing up to two sessions to run at the same time. The Carlo Meeting Room has a maximum capacity of 50 people and the Friends Community Room has a maximum capacity of 20 people.
 
 The final session schedule and speaker lineup will be published after speaker selection is complete. We are not publishing placeholder speakers or session times.
 
@@ -136,7 +137,7 @@ The **Day of Data Detroit 2026 Call for Speakers is open through August 31, 2026
 
 Typical sessions will be approximately **45-60 minutes**. Topics can include SQL Server, Azure SQL, Microsoft Fabric, Power BI, Real-Time Intelligence, Databricks, Azure Data & AI, data engineering, analytics, architecture, governance, GenAI, AI agents, machine learning, certification, career development, and related areas.
 
-To submit a session, email **[mouraksh@umich.edu](mailto:mouraksh@umich.edu?subject=Day%20of%20Data%20Detroit%202026%20-%20Speaker%20Submission)** with your proposed session title, short abstract, short bio, and confirmation that you are available to present in person in Detroit on September 12, 2026.
+To submit a session, email **[mouraksh@umich.edu](mailto:mouraksh@umich.edu?subject=Day%20of%20Data%20Detroit%202026%20-%20Speaker%20Submission)** with your proposed session title, short abstract, short bio, and confirmation that you are available to present in person in Northville on September 12, 2026.
 
 <a id="volunteer-with-us"></a>
 ## Volunteer With Us
