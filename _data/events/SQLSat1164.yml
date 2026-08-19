@@ -53,9 +53,9 @@ eventcountdown: true
 countdownscript: |
     <script src="https://cdn.logwork.com/widget/countdown.js"></script><a href="https://logwork.com/countdown-71sb" class="countdown-timer" data-timezone="America/New_York" data-date="2026-09-12 08:30">Countdown</a>
 
-speakertext: We are accepting 45-60 minute session proposals from local and regional data professionals, Microsoft MVPs, MCTs, community speakers, and industry practitioners. Topics across SQL Server, Azure SQL, Microsoft Fabric, Power BI, Real-Time Intelligence, Azure Data & AI, Databricks, data engineering, analytics, architecture, governance, AI, and professional development are welcome. The venue supports two concurrent session tracks.
+speakertext: We are accepting 45-60 minute session proposals through August 31 from local and regional data professionals, Microsoft MVPs, MCTs, community speakers, and industry practitioners. Topics across SQL Server, Azure SQL, Microsoft Fabric, Power BI, Real-Time Intelligence, Azure Data & AI, Databricks, data engineering, analytics, architecture, governance, AI, and professional development are welcome. The audience will include students and early-career professionals as well as experienced industry practitioners, and the venue supports two concurrent session tracks.
 speakerlisturl: 
-callforspeakersurl: https://dayofdata.org/michigan-data-ai-community/#speaker-submissions
+callforspeakersurl: https://sessionize.com/day-of-data-detroit-2026
 callforspeakers: true
 callforspeakersenddate: 31 Aug 2026
 
@@ -90,9 +90,9 @@ sponsorplan: |
   <h1><a name="sponsorship">Sponsorship Plan</a></h1>
   <p>Sponsors are essential to Day of Data Detroit 2026. Sponsorship supports technical education, networking, speaker support, attendee food and beverages, event materials, and community engagement for up to approximately 70 attendees across Detroit and Southeast Michigan.</p>
   <p>Conference admission is completely free. Attendees may register for free without purchasing lunch. A separate optional $15 lunch ticket is available for attendees who want the event-provided lunch.</p>
-  <p>Organizations working with SQL Server, Azure SQL Database, SQL Server on Azure VMs, Microsoft Fabric, Power BI, Azure Data &amp; AI, Databricks, data engineering, analytics, AI, cloud, governance, security, developer tools, recruiting, and related technologies are especially encouraged to participate.</p>
+  <p>Organizations working with SQL Server, Azure SQL Database, SQL Server on Azure VMs, Microsoft Fabric, Power BI, Azure Data &amp; AI, Databricks, data engineering, analytics, AI, cloud, governance, security, developer tools, recruiting, education, financial services, automotive, professional services, and related technologies are encouraged to participate.</p>
   <h2>Sponsorship Levels</h2>
-  <p>All sponsors will be recognized on the Day of Data Detroit event page and during the event. If you have an idea that does not fit one of the options below, please contact us. We are happy to discuss a community-friendly sponsorship or in-kind contribution.</p>
+  <p>Small contributions are welcome. We added a $100 Community Supporter option so local businesses and teams can participate without a large event-marketing budget. All sponsors will be recognized on the Day of Data Detroit event page and during the event. If you have an idea that does not fit one of the options below, please contact us.</p>
   <style>
     table.detroit-sponsor {
       border-spacing: 0;
@@ -112,31 +112,36 @@ sponsorplan: |
     <thead>
       <tr>
         <th>Benefit</th>
+        <th>Community Supporter<br/>$100</th>
         <th>Community<br/>$250</th>
         <th>Supporting<br/>$500</th>
         <th>Premier<br/>$1,000</th>
       </tr>
     </thead>
     <tbody>
-      <tr><td>Company logo on event page</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
-      <tr><td>Official sponsor recognition during the event</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
-      <tr><td>Provide branded giveaways, raffle items, or recruiting materials</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
-      <tr><td>Recognition in selected event communications and social media</td><td>-</td><td>Yes</td><td>Yes</td></tr>
-      <tr><td>More prominent logo and sponsor recognition</td><td>-</td><td>Yes</td><td>Yes</td></tr>
-      <tr><td>Premier placement and opening/closing recognition</td><td>-</td><td>-</td><td>Yes</td></tr>
-      <tr><td>Opportunity for an exhibitor table, subject to venue availability</td><td>-</td><td>-</td><td>Yes</td></tr>
+      <tr><td>Company name on event page</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+      <tr><td>Company logo on event page</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+      <tr><td>Official sponsor recognition during the event</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+      <tr><td>Provide branded giveaways, raffle items, or recruiting materials</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+      <tr><td>Recognition in selected event communications and social media</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+      <tr><td>More prominent logo and sponsor recognition</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+      <tr><td>Premier placement and opening/closing recognition</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+      <tr><td>Opportunity for an exhibitor table, subject to venue availability</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
     </tbody>
   </table>
-  <h2>In-Kind and Community Sponsorship</h2>
-  <p>We also welcome in-kind contributions. Examples include:</p>
+  <h2>Food, Refreshment, Gift Card, and In-Kind Support</h2>
+  <p>We also welcome small $100-$250 food/refreshment contributions and in-kind support. Useful options include:</p>
   <ul>
-    <li><strong>Lunch Sponsor</strong> - support for attendee lunch.</li>
-    <li><strong>Coffee, Water, and Snack Sponsor</strong> - beverages and refreshments during the event.</li>
+    <li><strong>Restaurant or Grocery Gift Cards / Food-Purchase Cards</strong> - flexible support that can be used to purchase the right quantity of attendee food and refreshments after final attendance is known.</li>
+    <li><strong>Meal Cards or Catering Credit</strong> - restaurant credit, boxed-meal credit, pizza/sub/sandwich catering credit, or attendee meal certificates.</li>
+    <li><strong>Coffee, Water, and Snack Support</strong> - bottled water, covered beverages, packaged snacks, fruit, bakery items, or other refreshments permitted by the venue.</li>
     <li><strong>Speaker Support</strong> - speaker dinner, speaker gifts, or other speaker-related expenses.</li>
     <li><strong>Raffle / Giveaway Sponsor</strong> - books, software, training, gift cards, or other attendee prizes.</li>
     <li><strong>Event Materials Sponsor</strong> - printing, signage, badges, supplies, or attendee materials.</li>
   </ul>
+  <p>A full-event food donation is not required. Support for a portion of the attendees, a partial catering discount, or a modest gift card is very useful and can be combined with support from other community partners.</p>
+  <p><strong>Donation restrictions:</strong> If a contribution is designated specifically for Day of Data Detroit 2026, it will be used only for this event. If a donor explicitly provides an unrestricted Michigan Data &amp; AI Community gift card, store credit, or community contribution, any remaining value after Day of Data Detroit may be used for future free Michigan Data &amp; AI Community meetup sessions. We will follow the donor's stated restriction.</p>
   <p>Recognition for in-kind sponsors can be tailored to the type and value of the contribution.</p>
-  <h2>Nonprofit Sponsorship Processing</h2>
-  <p>SQL Saturday Corporation is a U.S. 501(c)(3) nonprofit organization. If your organization requires a nonprofit invoice or sponsorship receipt, please contact the organizer so sponsorship processing through SQL Saturday Corporation can be coordinated.</p>
-  <p>For sponsorship opportunities, please email <a href="mailto:mouraksh@umich.edu">Mou Rakshit</a>.</p>
+  <h2>Nonprofit and Payment Processing</h2>
+  <p>SQL Saturday Corporation is a U.S. 501(c)(3) nonprofit organization. Corporate sponsorship payments by credit card or check, as well as nonprofit invoices or sponsorship receipts, can be coordinated through SQL Saturday Corporation. Please contact the organizer for the official payment instructions before sending funds.</p>
+  <p>For sponsorship opportunities, please email <a href="mailto:mouraksh@umich.edu">Mou Rakshit</a> or call 248-925-8004.</p>
