@@ -56,11 +56,11 @@ eventcountdown: true
 countdownscript: |
     <script src="https://cdn.logwork.com/widget/countdown.js"></script><a href="https://logwork.com/countdown-71sb" class="countdown-timer" data-timezone="America/New_York" data-date="2026-09-12 10:00">Countdown</a>
 
-speakertext: We are accepting 45-60 minute session proposals through August 31 from local and regional data professionals, Microsoft MVPs, MCTs, community speakers, and industry practitioners. Topics across SQL Server, Azure SQL, Microsoft Fabric, Power BI, Real-Time Intelligence, Azure Data & AI, Databricks, data engineering, analytics, architecture, governance, AI, and professional development are welcome. The audience will include students and early-career professionals as well as experienced industry practitioners, and the venue supports two concurrent session tracks.
+speakertext: We are accepting 45-60 minute session proposals through September 12 from local and regional data professionals, Microsoft MVPs, MCTs, community speakers, and industry practitioners. Topics across SQL Server, Azure SQL, Microsoft Fabric, Power BI, Real-Time Intelligence, Azure Data & AI, Databricks, data engineering, analytics, architecture, governance, AI, and professional development are welcome. The audience will include students and early-career professionals as well as experienced industry practitioners, and the venue supports two concurrent session tracks.
 speakerlisturl: 
 callforspeakersurl: https://sessionize.com/day-of-data-detroit-2026
 callforspeakers: true
-callforspeakersenddate: 31 Aug 2026
+callforspeakersenddate: 12 Sep 2026
 
 precons: false
 precondetail: 
