@@ -59,8 +59,8 @@ permalink: /michigan-data-ai-community/
   <p>The Michigan Data &amp; AI Community is a volunteer-led, community-first, not-for-profit initiative created to help data and AI professionals, students, speakers, technologists, employers, educators, user groups, and community partners connect across Michigan.</p>
   <p>Our goal is to create more opportunities for people to learn, present, mentor, volunteer, network, and organize high-quality technical events in Detroit, Southeast Michigan, and the broader Michigan technology community.</p>
   <div class="mi-buttons">
-    <a href="https://www.eventbrite.com/e/day-of-data-detroit-2026-tickets-1998135403781">Register for Day of Data Detroit</a>
-    <a href="https://sessionize.com/day-of-data-detroit-2026">Submit a Session</a>
+    <a href="https://www.eventbrite.com/e/day-of-data-detroit-2026-tickets-1998135403781">Attendee Registration - Day of Data Detroit</a>
+    <a href="https://sessionize.com/day-of-data-detroit-2026">Speaker CFP - Submit a Session</a>
     <a href="#volunteer-with-us">Volunteer</a>
     <a href="mailto:mouraksh@umich.edu?subject=Michigan%20Data%20%26%20AI%20Community%20-%20Sponsor%20or%20Partner">Partner With Us</a>
   </div>
@@ -106,17 +106,20 @@ The community is technology-inclusive and focuses on practical data, analytics, 
 ### Day of Data Detroit 2026
 
 **Date:** Saturday, September 12, 2026  
-**Event time:** 8:30 AM-5:00 PM EDT  
-**Check-in:** Begins at 8:00 AM  
+**Event time:** 10:00 AM-4:30 PM EDT  
+**Check-in:** Begins at 10:00 AM  
 **Venue:** Northville District Library, 212 W Cady St, Northville, MI 48167  
 **Rooms:** Carlo Meeting Room, maximum 50 people; Friends Community Room, maximum 20 people  
 **Format:** In-person, community-driven technical conference with up to two concurrent session tracks  
-**Planned attendance:** Up to approximately 70 attendees, based on the two meeting-room capacities  
+**Community reach goal:** 200+ registrations and community participants across Southeast Michigan  
+**On-site room capacity:** Approximately 70 at any one time across the two meeting rooms  
 **Registration:** Open on Eventbrite  
 **Lunch:** Optional $15 lunch ticket; free admission is available without lunch  
-**Parking:** Parking is available at and around the library; please follow posted signs and restrictions
+**Parking:** Free parking is available at Northville District Library; additional nearby public parking is available in downtown Northville subject to posted signs and time limits
 
 **[Register for Day of Data Detroit 2026 on Eventbrite](https://www.eventbrite.com/e/day-of-data-detroit-2026-tickets-1998135403781)**
+
+**[Speaker CFP - Submit your session on Sessionize](https://sessionize.com/day-of-data-detroit-2026)**
 
 [View the official Day of Data Detroit 2026 event page](/2026-09-12-dayofdata1164/)  
 [View the Northville District Library](https://northvillelibrary.org/?page_id=21083)  
