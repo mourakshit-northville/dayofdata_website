@@ -2,7 +2,7 @@ name: "Day of Data Detroit 2026"
 primarytag: "Detroit"
 logo: 
 logocredit: 
-date: 2026-09-12 08:30:00 -0400
+date: 2026-09-12 10:00:00 -0400
 virtual: false
 physical: true
 hybrid: false
@@ -10,7 +10,7 @@ description: |
     <p><strong>Day of Data Detroit 2026</strong> is a community-driven, in-person technical event for data professionals, developers, architects, analysts, AI practitioners, students, technology leaders, and community members across Detroit, Southeast Michigan, and the surrounding region.</p>
     <p><strong>Conference admission is completely free.</strong> Eventbrite offers a free admission ticket for attendees who do not want to purchase lunch. A separate optional <strong>$15 lunch ticket</strong> is available for attendees who would like the event-provided lunch. No attendee is required to purchase lunch in order to attend. Registration is required because capacity is limited by the venue. <strong><a href="https://www.eventbrite.com/e/day-of-data-detroit-2026-tickets-1998135403781">Register now on Eventbrite</a>.</strong></p>
     <p><strong>Community reach:</strong> We are promoting the event across Southeast Michigan with a goal of 200+ registrations and community participants. On-site attendance at any one time is limited by the two library meeting rooms, which have a combined physical capacity of approximately 70.</p>
-    <p><strong>Event hours:</strong> Saturday, September 12, 2026, 8:30 AM-5:00 PM EDT. Attendee check-in begins at 8:00 AM.</p>
+    <p><strong>Event hours:</strong> Saturday, September 12, 2026, 10:00 AM-4:30 PM EDT. Attendee check-in begins at 10:00 AM.</p>
     <p><strong>Venue:</strong> Northville District Library, 212 W Cady St, Northville, MI 48167. The event will use two meeting rooms: the Carlo Meeting Room (maximum 50 people) and the Friends Community Room (maximum 20 people), allowing up to two sessions to run in parallel.</p>
     <p><strong>Parking:</strong> Free parking is available at the Northville District Library. Additional nearby public parking is available in downtown Northville; please follow posted signs and time limits.</p>
     <h3>Why Attend?</h3>
@@ -53,7 +53,7 @@ scheduletimezone: Eastern Daylight Time UTC -4
 
 eventcountdown: true
 countdownscript: |
-    <script src="https://cdn.logwork.com/widget/countdown.js"></script><a href="https://logwork.com/countdown-71sb" class="countdown-timer" data-timezone="America/New_York" data-date="2026-09-12 08:30">Countdown</a>
+    <script src="https://cdn.logwork.com/widget/countdown.js"></script><a href="https://logwork.com/countdown-71sb" class="countdown-timer" data-timezone="America/New_York" data-date="2026-09-12 10:00">Countdown</a>
 
 speakertext: We are accepting 45-60 minute session proposals through August 31 from local and regional data professionals, Microsoft MVPs, MCTs, community speakers, and industry practitioners. Topics across SQL Server, Azure SQL, Microsoft Fabric, Power BI, Real-Time Intelligence, Azure Data & AI, Databricks, data engineering, analytics, architecture, governance, AI, and professional development are welcome. The audience will include students and early-career professionals as well as experienced industry practitioners, and the venue supports two concurrent session tracks.
 speakerlisturl: 
