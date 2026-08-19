@@ -136,7 +136,7 @@ Day of Data Detroit is being built for data professionals, developers, DBAs, arc
 <a id="speaker-submissions"></a>
 ### Interested in Speaking?
 
-The **Day of Data Detroit 2026 Call for Speakers is open through August 31, 2026**. We welcome experienced presenters as well as community members who want to grow as speakers, with a strong interest in speakers from Michigan, Ohio, Indiana, Illinois, and the broader Midwest.
+The **Day of Data Detroit 2026 Call for Speakers is open through September 12, 2026**. We welcome experienced presenters as well as community members who want to grow as speakers, with a strong interest in speakers from Michigan, Ohio, Indiana, Illinois, and the broader Midwest.
 
 Typical sessions will be approximately **45-60 minutes**. Topics can include SQL Server, Azure SQL, Microsoft Fabric, Power BI, Real-Time Intelligence, Databricks, Azure Data & AI, data engineering, analytics, architecture, governance, GenAI, AI agents, machine learning, certification, career development, and related areas.
 
