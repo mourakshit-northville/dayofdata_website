@@ -60,7 +60,7 @@ permalink: /michigan-data-ai-community/
   <p>Our goal is to create more opportunities for people to learn, present, mentor, volunteer, network, and organize high-quality technical events in Detroit, Southeast Michigan, and the broader Michigan technology community.</p>
   <div class="mi-buttons">
     <a href="https://www.eventbrite.com/e/day-of-data-detroit-2026-tickets-1998135403781">Register for Day of Data Detroit</a>
-    <a href="#speaker-submissions">Become a Speaker</a>
+    <a href="https://sessionize.com/day-of-data-detroit-2026">Submit a Session</a>
     <a href="#volunteer-with-us">Volunteer</a>
     <a href="mailto:mouraksh@umich.edu?subject=Michigan%20Data%20%26%20AI%20Community%20-%20Sponsor%20or%20Partner">Partner With Us</a>
   </div>
@@ -137,7 +137,9 @@ The **Day of Data Detroit 2026 Call for Speakers is open through August 31, 2026
 
 Typical sessions will be approximately **45-60 minutes**. Topics can include SQL Server, Azure SQL, Microsoft Fabric, Power BI, Real-Time Intelligence, Databricks, Azure Data & AI, data engineering, analytics, architecture, governance, GenAI, AI agents, machine learning, certification, career development, and related areas.
 
-To submit a session, email **[mouraksh@umich.edu](mailto:mouraksh@umich.edu?subject=Day%20of%20Data%20Detroit%202026%20-%20Speaker%20Submission)** with your proposed session title, short abstract, short bio, and confirmation that you are available to present in person in Northville on September 12, 2026.
+**[Submit your Day of Data Detroit session on Sessionize](https://sessionize.com/day-of-data-detroit-2026)**
+
+If you have trouble with Sessionize or want to discuss a proposed topic first, email **[mouraksh@umich.edu](mailto:mouraksh@umich.edu?subject=Day%20of%20Data%20Detroit%202026%20-%20Speaker%20Submission)** with your proposed session title, short abstract, short bio, and confirmation that you are available to present in person in Northville on September 12, 2026.
 
 <a id="volunteer-with-us"></a>
 ## Volunteer With Us
@@ -166,33 +168,41 @@ If your organization would like to help, email **[mouraksh@umich.edu](mailto:mou
 
 ## Sponsor Day of Data Detroit 2026
 
-Organizations working with data, databases, analytics, cloud, AI, security, developer tools, recruiting, education, and related technologies are invited to support the event.
+Organizations working with data, databases, analytics, cloud, AI, security, developer tools, recruiting, education, financial services, automotive, professional services, and related technologies are invited to support the event. Small contributions are welcome; a business does not need a large event-marketing budget to help.
 
 <table class="mi-table">
   <thead>
     <tr>
       <th>Benefit</th>
+      <th>Community Supporter<br/>$100</th>
       <th>Community<br/>$250</th>
       <th>Supporting<br/>$500</th>
       <th>Premier<br/>$1,000</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>Company logo on event page</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
-    <tr><td>Recognition during the event</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
-    <tr><td>Provide giveaways, raffle items, or recruiting materials</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
-    <tr><td>Recognition in selected event communications/social media</td><td>-</td><td>Yes</td><td>Yes</td></tr>
-    <tr><td>More prominent sponsor recognition</td><td>-</td><td>Yes</td><td>Yes</td></tr>
-    <tr><td>Premier placement and opening/closing recognition</td><td>-</td><td>-</td><td>Yes</td></tr>
-    <tr><td>Potential exhibitor table, subject to venue availability</td><td>-</td><td>-</td><td>Yes</td></tr>
+    <tr><td>Company name on event page</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+    <tr><td>Company logo on event page</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+    <tr><td>Recognition during the event</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+    <tr><td>Provide giveaways, raffle items, or recruiting materials</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+    <tr><td>Recognition in selected event communications/social media</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+    <tr><td>More prominent sponsor recognition</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+    <tr><td>Premier placement and opening/closing recognition</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+    <tr><td>Potential exhibitor table, subject to venue availability</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
   </tbody>
 </table>
 
-We also welcome in-kind sponsorship for **attendee lunch, coffee/water/snacks, speaker dinner or gifts, raffle prizes, printing, signage, badges, and event materials**.
+### Food, Refreshment, Gift Card, and In-Kind Support
 
-For Day of Data Detroit, nonprofit sponsorship processing can be coordinated through **SQL Saturday Corporation**, a U.S. 501(c)(3) nonprofit organization, when a sponsor requires a nonprofit invoice or sponsorship receipt.
+We also welcome **$100-$250 food/refreshment support** and in-kind sponsorship such as restaurant or grocery gift cards, food-purchase cards, meal cards, catering credit, bottled water, packaged snacks, speaker dinner or gifts, raffle prizes, printing, signage, badges, and event materials.
 
-Email **[mouraksh@umich.edu](mailto:mouraksh@umich.edu?subject=Day%20of%20Data%20Detroit%202026%20-%20Sponsorship)** for sponsorship opportunities.
+A full lunch donation is not required. Support for only part of the attendee group, a partial catering discount, or a modest store gift card is useful and can be combined with support from several local community partners.
+
+**Donation restrictions:** If a donation is designated specifically for Day of Data Detroit 2026, it will be used only for this event. If a donor explicitly provides an unrestricted Michigan Data & AI Community gift card, store credit, or community contribution, any remaining value after Day of Data Detroit may be used for future free Michigan Data & AI Community meetup sessions. We will follow the donor's stated restriction.
+
+For Day of Data Detroit, **SQL Saturday Corporation is a U.S. 501(c)(3) nonprofit organization**. Corporate sponsorship payments by credit card or check, nonprofit invoices, and sponsorship receipts can be coordinated through SQL Saturday Corporation. Please contact the organizer for the official payment instructions before sending funds.
+
+Email **[mouraksh@umich.edu](mailto:mouraksh@umich.edu?subject=Day%20of%20Data%20Detroit%202026%20-%20Sponsorship)** or call **248-925-8004** for sponsorship opportunities.
 
 ## Who Can Participate?
 
@@ -215,4 +225,5 @@ Participants in Day of Data and SQL Saturday events are expected to follow the [
 **Mou Rakshit**  
 Community Organizer  
 Email: [mouraksh@umich.edu](mailto:mouraksh@umich.edu)  
+Phone: 248-925-8004  
 LinkedIn: [linkedin.com/in/mourakshit](https://www.linkedin.com/in/mourakshit/)
