@@ -7,32 +7,192 @@ virtual: false
 physical: true
 hybrid: false
 description: |
-    <p><strong>Day of Data Detroit 2026</strong> is a community-driven, in-person technical event for data professionals, developers, architects, analysts, AI practitioners, students, technology leaders, and community members across Detroit, Southeast Michigan, and the surrounding region.</p>
-    <p><strong>Conference admission is completely free.</strong> Eventbrite offers a free admission ticket for attendees who do not want to purchase lunch. A separate optional <strong>$15 lunch ticket</strong> is available for attendees who would like the event-provided lunch. No attendee is required to purchase lunch in order to attend. Registration is required because capacity is limited by the venue. <strong><a href="https://www.eventbrite.com/e/day-of-data-detroit-2026-tickets-1998135403781">Register now on Eventbrite</a>.</strong></p>
-    <p align="center"><a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://sessionize.com/day-of-data-detroit-2026" target="_blank" rel="noopener noreferrer">Speaker CFP - Submit a Session</a></p>
-    <p><strong>Community reach:</strong> We are promoting the event across Southeast Michigan with a goal of 200+ registrations and community participants. On-site attendance at any one time is limited by the two library meeting rooms, which have a combined physical capacity of approximately 70.</p>
-    <p><strong>Event hours:</strong> Saturday, September 12, 2026, 10:00 AM-4:30 PM EDT. Attendee check-in begins at 10:00 AM.</p>
-    <p><strong>Venue:</strong> Northville District Library, 212 W Cady St, Northville, MI 48167. The event will use two meeting rooms: the Carlo Meeting Room (maximum 50 people) and the Friends Community Room (maximum 20 people), allowing up to two sessions to run in parallel.</p>
-    <p><strong>Parking:</strong> Free parking is available at the Northville District Library. Additional nearby public parking is available in downtown Northville; please follow posted signs and time limits.</p>
-    <h3>Why Attend?</h3>
-    <ul>
-      <li>Learn practical techniques, patterns, and lessons from experienced community speakers and industry practitioners.</li>
-      <li>See technical sessions and demos focused on real-world data, analytics, database, cloud, and AI scenarios.</li>
-      <li>Connect with fellow data professionals, speakers, students, technology leaders, sponsors, and local community members.</li>
-      <li>Build your professional network and discover new ideas for career development, certification, architecture, engineering, analytics, and AI.</li>
-    </ul>
-    <h3>Who Should Attend?</h3>
-    <p>Content is intended for a wide range of skill levels, from students and early-career professionals to experienced DBAs, developers, data engineers, BI professionals, architects, administrators, AI/ML practitioners, consultants, managers, and technology leaders.</p>
-    <h3>Topics We Are Building Around</h3>
-    <ul>
-      <li><strong>SQL Server and Azure SQL:</strong> administration, performance, development, modernization, high availability, security, and cloud database services.</li>
-      <li><strong>Microsoft Fabric and Power BI:</strong> data engineering, analytics, semantic models, Real-Time Intelligence, governance, and business intelligence.</li>
-      <li><strong>Databricks and Modern Data Engineering:</strong> lakehouse architecture, data pipelines, streaming, governance, analytics, and AI-enabled data platforms.</li>
-      <li><strong>AI and Generative AI:</strong> machine learning, AI agents, copilots, retrieval-augmented generation, responsible AI, and practical enterprise AI scenarios.</li>
-      <li><strong>Architecture, Governance, and Professional Development:</strong> data architecture, quality, security, governance, certification, career growth, and community knowledge sharing.</li>
-    </ul>
-    <p>Sessions will feature local and regional community speakers and industry practitioners. The program will use two concurrent tracks where appropriate, based on the two available meeting rooms. The final speaker lineup and detailed schedule will be published as they are finalized.</p>
-    <p><strong>Community website:</strong> Day of Data Detroit is part of the volunteer-led <a href="/michigan-data-ai-community/">Michigan Data &amp; AI Community</a>, supporting technical speaking, learning, mentoring, volunteering, and community conferences across Michigan.</p>
+    <style>
+      .dod-hero {
+        margin: 8px 0 28px 0;
+        padding: 32px 28px;
+        border-radius: 14px;
+        background: linear-gradient(135deg, #f4f8fc 0%, #eef7f8 100%);
+        border: 1px solid #d6e1ea;
+        text-align: center;
+      }
+      .dod-hero h2 {
+        margin: 0 0 12px 0;
+        color: #17365d;
+        font-size: 2rem;
+        line-height: 1.15;
+      }
+      .dod-hero .dod-kicker {
+        text-transform: uppercase;
+        letter-spacing: .08em;
+        font-weight: 700;
+        color: #287a8b;
+        margin-bottom: 8px;
+      }
+      .dod-hero p {
+        max-width: 820px;
+        margin: 0 auto 18px auto;
+        font-size: 1.05rem;
+      }
+      .dod-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        margin: 18px 0 4px 0;
+      }
+      .dod-actions a {
+        display: inline-block;
+        padding: 11px 18px;
+        border-radius: 7px;
+        text-decoration: none;
+        font-weight: 700;
+        border: 1px solid #1e6c83;
+      }
+      .dod-actions .primary {
+        background: #1e6c83;
+        color: white;
+      }
+      .dod-actions .secondary {
+        background: white;
+        color: #1e6c83;
+      }
+      .dod-facts, .dod-grid, .dod-audience, .dod-topics {
+        display: grid;
+        gap: 14px;
+        margin: 18px 0 30px 0;
+      }
+      .dod-facts {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      }
+      .dod-grid {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      }
+      .dod-audience {
+        grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+      }
+      .dod-topics {
+        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      }
+      .dod-card, .dod-fact, .dod-topic, .dod-persona {
+        border: 1px solid #d7dfe7;
+        border-radius: 10px;
+        background: #fff;
+        padding: 16px;
+      }
+      .dod-card h4, .dod-topic h4, .dod-persona h4 {
+        margin-top: 0;
+        color: #17365d;
+      }
+      .dod-fact {
+        text-align: center;
+        background: #f8fafc;
+      }
+      .dod-fact strong {
+        display: block;
+        color: #17365d;
+        font-size: 1.1rem;
+        margin-bottom: 3px;
+      }
+      .dod-section-title {
+        text-align: center;
+        margin-top: 34px;
+        color: #17365d;
+      }
+      .dod-callout {
+        margin: 28px 0;
+        padding: 22px;
+        border-left: 5px solid #287a8b;
+        background: #f5fbfc;
+        border-radius: 8px;
+      }
+      .dod-sponsor {
+        margin: 30px 0;
+        padding: 24px;
+        text-align: center;
+        border: 1px solid #d7dfe7;
+        border-radius: 12px;
+        background: #fbfcfd;
+      }
+      .dod-sponsor h3 { margin-top: 0; color: #17365d; }
+      .dod-note { color: #555; font-size: .94rem; }
+    </style>
+
+    <div class="dod-hero">
+      <div class="dod-kicker">Free Community Data + AI Conference</div>
+      <h2>Where Data Professionals, Builders, Leaders &amp; Learners Connect in Southeast Michigan</h2>
+      <p><strong>Day of Data Detroit 2026</strong> is a volunteer-led, in-person technical conference focused on practical data, analytics, cloud, database and AI learning. Join local and regional practitioners for real implementation stories, technical demos, career development and meaningful community networking.</p>
+      <div class="dod-actions">
+        <a class="primary" href="https://www.eventbrite.com/e/day-of-data-detroit-2026-tickets-1998135403781" target="_blank" rel="noopener noreferrer">Register Free</a>
+        <a class="secondary" href="https://sessionize.com/day-of-data-detroit-2026" target="_blank" rel="noopener noreferrer">Speaker CFP - Submit a Session</a>
+        <a class="secondary" href="#sponsorship">Become a Sponsor</a>
+      </div>
+    </div>
+
+    <div class="dod-facts">
+      <div class="dod-fact"><strong>September 12, 2026</strong>Saturday</div>
+      <div class="dod-fact"><strong>10:00 AM-4:30 PM</strong>Eastern Time</div>
+      <div class="dod-fact"><strong>2 Technical Tracks</strong>Two library meeting rooms</div>
+      <div class="dod-fact"><strong>$0 Admission</strong>Optional $15 lunch ticket</div>
+      <div class="dod-fact"><strong>Free Parking</strong>Northville District Library</div>
+    </div>
+
+    <h3 class="dod-section-title">Why You Should Attend</h3>
+    <div class="dod-grid">
+      <div class="dod-card"><h4>Real-World Data &amp; AI</h4><p>Learn how practitioners are solving production challenges across modern data platforms, analytics, governance and AI.</p></div>
+      <div class="dod-card"><h4>Technical Sessions &amp; Demos</h4><p>See practical architectures, implementation patterns, demos and lessons that you can apply in your own environment.</p></div>
+      <div class="dod-card"><h4>Expert Community Talks</h4><p>Hear from experienced local and regional speakers, Microsoft community experts, Databricks practitioners and data leaders.</p></div>
+      <div class="dod-card"><h4>Career &amp; Certification</h4><p>Build skills, explore certifications, learn from practitioners and connect with people across different stages of their data careers.</p></div>
+      <div class="dod-card"><h4>Community Networking</h4><p>Meet data engineers, architects, developers, analysts, DBAs, AI practitioners, consultants, students and technology leaders.</p></div>
+      <div class="dod-card"><h4>Two Concurrent Tracks</h4><p>Choose between parallel sessions so you can focus on the topics most relevant to your work and interests.</p></div>
+    </div>
+
+    <h3 class="dod-section-title">Who Should Attend</h3>
+    <p style="text-align:center;">Whether you are building enterprise data and AI solutions or starting your technical journey, the event is designed for a broad Southeast Michigan audience.</p>
+    <div class="dod-audience">
+      <div class="dod-persona"><h4>Data Engineers</h4><p>Pipelines, lakehouse, streaming and platform engineering.</p></div>
+      <div class="dod-persona"><h4>DBAs &amp; Developers</h4><p>SQL Server, Azure SQL, performance, modernization and development.</p></div>
+      <div class="dod-persona"><h4>BI &amp; Analytics Professionals</h4><p>Power BI, semantic models, reporting and analytics.</p></div>
+      <div class="dod-persona"><h4>Architects &amp; Leaders</h4><p>Architecture, governance, security, strategy and delivery.</p></div>
+      <div class="dod-persona"><h4>AI &amp; ML Practitioners</h4><p>GenAI, agents, RAG, machine learning and enterprise AI.</p></div>
+      <div class="dod-persona"><h4>Students &amp; Learners</h4><p>Technical learning, certification, mentoring and career connections.</p></div>
+    </div>
+
+    <h3 class="dod-section-title">Technical Focus</h3>
+    <div class="dod-topics">
+      <div class="dod-topic"><h4>SQL Server &amp; Azure SQL</h4><p>Administration, development, performance, high availability, modernization and security.</p></div>
+      <div class="dod-topic"><h4>Microsoft Fabric &amp; Power BI</h4><p>Data engineering, Real-Time Intelligence, semantic models, analytics, governance and BI.</p></div>
+      <div class="dod-topic"><h4>Databricks &amp; Modern Data Engineering</h4><p>Lakehouse architecture, streaming, governance, analytics, Unity Catalog and AI-enabled data platforms.</p></div>
+      <div class="dod-topic"><h4>AI &amp; Generative AI</h4><p>AI agents, copilots, RAG, machine learning, responsible AI and practical enterprise use cases.</p></div>
+      <div class="dod-topic"><h4>Architecture &amp; Governance</h4><p>Data architecture, quality, security, observability, governance and platform strategy.</p></div>
+      <div class="dod-topic"><h4>Professional Development</h4><p>Certification, career growth, technical leadership, speaking and community knowledge sharing.</p></div>
+    </div>
+
+    <div class="dod-callout">
+      <h3>Speaker Call for Proposals</h3>
+      <p>We are accepting <strong>45-60 minute session proposals through September 12, 2026</strong> from local and regional data professionals, Microsoft MVPs, Microsoft Certified Trainers, community speakers and industry practitioners.</p>
+      <p><a href="https://sessionize.com/day-of-data-detroit-2026" target="_blank" rel="noopener noreferrer"><strong>Submit your Day of Data Detroit session on Sessionize</strong></a></p>
+    </div>
+
+    <h3 class="dod-section-title">Event Location &amp; Logistics</h3>
+    <div class="dod-grid">
+      <div class="dod-card"><h4>Northville District Library</h4><p>212 W Cady St<br/>Northville, MI 48167</p><p><strong>Saturday, September 12<br/>10:00 AM-4:30 PM EDT</strong></p></div>
+      <div class="dod-card"><h4>Free Parking</h4><p>Free parking is available at the Northville District Library. Additional public parking is available nearby in downtown Northville; follow posted signs and time limits.</p></div>
+      <div class="dod-card"><h4>Room Configuration</h4><p>Carlo Meeting Room: maximum 50 people.<br/>Friends Community Room: maximum 20 people.<br/>Up to two sessions can run in parallel.</p></div>
+      <div class="dod-card"><h4>Registration &amp; Lunch</h4><p>Conference admission is completely free. A separate optional <strong>$15 lunch ticket</strong> is available. Lunch is not required to attend.</p></div>
+    </div>
+
+    <div class="dod-sponsor">
+      <h3>Help Power the Southeast Michigan Data &amp; AI Community</h3>
+      <p>Organizations can support technical education, attendee refreshments, speaker support, event materials and community engagement through sponsorships starting at <strong>$100</strong>, larger sponsor packages, or useful in-kind contributions such as restaurant/grocery gift cards, food-purchase cards, catering credit, training, software or raffle items.</p>
+      <p><strong>Confirmed Community Sponsor: Neo4j - $250.</strong></p>
+      <div class="dod-actions">
+        <a class="primary" href="mailto:mouraksh@umich.edu?subject=Day%20of%20Data%20Detroit%202026%20-%20Sponsorship">Explore Sponsorship</a>
+        <a class="secondary" href="/michigan-data-ai-community/">Michigan Data &amp; AI Community</a>
+      </div>
+    </div>
+
+    <p class="dod-note"><strong>Community reach:</strong> The event is being promoted across Southeast Michigan with a goal of 200+ registrations and community participants. On-site attendance at any one time is limited by the two library meeting rooms, which have a combined physical capacity of approximately 70.</p>
 
 eventlocation: |
   Northville District Library<br/>
