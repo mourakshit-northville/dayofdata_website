@@ -14,6 +14,7 @@ This portfolio is intended to show how I approach architecture decisions, trust 
 | [Databricks AI Governance Reference](./databricks-ai-governance/README.md) | Unity Catalog, Unity AI Gateway, MLflow, policy enforcement, lineage, and auditability |
 | [Fabric Real-Time Agentic Intelligence](./fabric-realtime-agentic-intelligence/README.md) | Event-driven intelligence using Microsoft Fabric concepts, real-time context, and governed actions |
 | [Governed Conversational BI with Genie](./governed-conversational-bi-genie/README.md) | Trusted natural-language analytics, semantic context, permissions, quality gates, and observability |
+| [Ontology in Enterprise AI: Mapping the Architecture Patterns](./enterprise-ontology-2026/README.md) | Assessment of Fabric IQ Ontology, Genie Ontology, Palantir, GraphRAG, and agent context patterns |
 
 ## Architecture principles
 
