@@ -2,57 +2,57 @@ name: "Day of Data Detroit 2026"
 primarytag: "Detroit"
 logo: 
 logocredit: 
-date: 2026-09-12 10:00:00 -0400
+date: 2026-09-12 10:30:00 -0400
 virtual: false
 physical: true
 hybrid: false
 description: |
-    <p><strong>Day of Data Detroit 2026</strong> is a free, community-driven, in-person technical event for data professionals, developers, architects, analysts, AI practitioners, students, technology leaders, and community members across Detroit, Southeast Michigan, and the surrounding region.</p>
-    <p><strong>Conference admission is completely free.</strong> Eventbrite offers a free admission ticket. A separate optional <strong>$15 lunch ticket</strong> is available for attendees who would like the event-provided lunch. No attendee is required to purchase lunch in order to attend. <strong><a href="https://www.eventbrite.com/e/day-of-data-detroit-2026-tickets-1998135403781" target="_blank" rel="noopener noreferrer">Register free on Eventbrite</a>.</strong></p>
-    <p><strong>Event hours:</strong> Saturday, September 12, 2026, 10:00 AM-4:30 PM EDT. The event will use two meeting rooms at the Northville District Library, with a combined physical capacity of approximately 70 attendees.</p>
-    <h3>Why Attend?</h3>
-    <ul>
-      <li>Learn practical techniques, patterns, and lessons from experienced community speakers and industry practitioners.</li>
-      <li>See technical sessions and demos focused on real-world data, analytics, database, cloud, streaming, and AI scenarios.</li>
-      <li>Connect with fellow data professionals, speakers, students, technology leaders, sponsors, and local community members.</li>
-      <li>Build your professional network and discover new ideas for career development, certification, architecture, engineering, analytics, and AI.</li>
-    </ul>
-    <h3>Who Should Attend?</h3>
-    <p>Content is intended for a wide range of skill levels, from students and early-career professionals to experienced DBAs, developers, data engineers, BI professionals, architects, administrators, AI/ML practitioners, consultants, managers, and technology leaders.</p>
-    <h3>Technical Focus</h3>
-    <ul>
-      <li><strong>SQL Server and Azure SQL:</strong> administration, performance, development, modernization, high availability, security, and cloud database services.</li>
-      <li><strong>Microsoft Fabric and Power BI:</strong> data engineering, analytics, semantic models, Real-Time Intelligence, governance, and business intelligence.</li>
-      <li><strong>Databricks and Modern Data Engineering:</strong> lakehouse architecture, data pipelines, streaming, governance, analytics, and AI-enabled data platforms.</li>
-      <li><strong>AI and Generative AI:</strong> machine learning, AI agents, copilots, retrieval-augmented generation, responsible AI, and practical enterprise AI scenarios.</li>
-      <li><strong>Architecture, Governance, and Professional Development:</strong> data architecture, quality, security, governance, certification, career growth, and community knowledge sharing.</li>
-    </ul>
-    <p>Sessions will feature local and regional community speakers and industry practitioners. Up to two technical sessions can run in parallel.</p>
-    <p><strong>Speaker CFP:</strong> We are accepting 45-60 minute session proposals through September 12, 2026. <a href="https://sessionize.com/day-of-data-detroit-2026" target="_blank" rel="noopener noreferrer"><strong>Submit a session on Sessionize</strong></a>.</p>
+  <p><strong>Day of Data Detroit 2026</strong> is a free, community-driven, in-person technical education event for data professionals, developers, architects, analysts, AI practitioners, students, technology leaders, and community members across Detroit, Southeast Michigan, and the surrounding region.</p>
+  <p><strong>Attendance is completely free.</strong> Registration is required. <strong><a href="https://www.eventbrite.com/e/day-of-data-detroit-2026-tickets-1998135403781" target="_blank" rel="noopener noreferrer">Register free on Eventbrite</a>.</strong></p>
+  <p><strong>Event hours:</strong> Saturday, September 12, 2026, 10:30 AM-4:45 PM EDT. Doors open at 10:00 AM. The event will be held at the Ann Arbor District Library - Downtown.</p>
+  <h3>Why Attend?</h3>
+  <ul>
+    <li>Learn practical techniques, patterns, and lessons from experienced community speakers and industry practitioners.</li>
+    <li>See technical sessions and demos focused on real-world data, analytics, database, cloud, streaming, and AI scenarios.</li>
+    <li>Connect with fellow data professionals, speakers, students, technology leaders, and local community members.</li>
+    <li>Build your professional network and discover new ideas for career development, certification, architecture, engineering, analytics, and AI.</li>
+  </ul>
+  <h3>Who Should Attend?</h3>
+  <p>Content is intended for a wide range of skill levels, from students and early-career professionals to experienced DBAs, developers, data engineers, BI professionals, architects, administrators, AI/ML practitioners, consultants, managers, and technology leaders.</p>
+  <h3>Technical Focus</h3>
+  <ul>
+    <li><strong>SQL Server and Azure SQL:</strong> administration, performance, development, modernization, high availability, security, and cloud database services.</li>
+    <li><strong>Microsoft Fabric and Power BI:</strong> data engineering, analytics, semantic models, Real-Time Intelligence, governance, and business intelligence.</li>
+    <li><strong>Azure Databricks and Modern Data Engineering:</strong> lakehouse architecture, data pipelines, streaming, governance, analytics, and AI-enabled data platforms.</li>
+    <li><strong>AI and Generative AI:</strong> machine learning, AI agents, copilots, retrieval-augmented generation, responsible AI, and practical enterprise AI scenarios.</li>
+    <li><strong>Architecture, Governance, and Professional Development:</strong> data architecture, quality, security, governance, certification, career growth, and community knowledge sharing.</li>
+  </ul>
+  <p>Sessions will feature local and regional community speakers and industry practitioners. Up to two technical sessions can run in parallel.</p>
+  <p><strong>Speaker CFP:</strong> We are accepting 45-60 minute session proposals through September 12, 2026. <a href="https://sessionize.com/day-of-data-detroit-2026" target="_blank" rel="noopener noreferrer"><strong>Submit a session on Sessionize</strong></a>.</p>
 
 eventlocation: |
-  Northville District Library<br/>
-  212 W Cady St<br/>
-  Northville, MI 48167, USA
+  Ann Arbor District Library - Downtown<br/>
+  343 S. Fifth Ave.<br/>
+  Ann Arbor, MI 48104, USA
 
-eventlocationurl: https://northvillelibrary.org/?page_id=21083
+eventlocationurl: https://aadl.org/aboutus/downtown
 
 officialwebsite: 
 registrationurl: https://www.eventbrite.com/e/day-of-data-detroit-2026-tickets-1998135403781
-capacity: 70
-googlemapurl: "https://www.google.com/maps?q=212+W+Cady+St,+Northville,+MI+48167&output=embed"
+capacity: 100
+googlemapurl: "https://www.google.com/maps?q=343+S+Fifth+Ave,+Ann+Arbor,+MI+48104&output=embed"
 parkingdesc: |
-  Free parking is available at the Northville District Library. Additional nearby public parking is available in downtown Northville. Please follow posted signs and time limits.
-lunchcost: Optional $15 lunch ticket; free admission is available without lunch
+  Downtown parking is available in nearby metered spaces, public lots, and the Library Lane parking structure. The Downtown Library is directly across Fifth Avenue from the Blake Transit Center. Please follow posted parking signs and rates.
+lunchcost: Free admission; refreshments subject to availability
 
 scheduleurl: 
 scheduletimezone: Eastern Daylight Time UTC -4
 
 eventcountdown: true
 countdownscript: |
-    <script src="https://cdn.logwork.com/widget/countdown.js"></script><a href="https://logwork.com/countdown-71sb" class="countdown-timer" data-timezone="America/New_York" data-date="2026-09-12 10:00">Countdown</a>
+  <script src="https://cdn.logwork.com/widget/countdown.js"></script><a href="https://logwork.com/countdown-71sb" class="countdown-timer" data-timezone="America/New_York" data-date="2026-09-12 10:30">Countdown</a>
 
-speakertext: We are accepting 45-60 minute session proposals through September 12, 2026 from local and regional data professionals, Microsoft MVPs, MCTs, community speakers, and industry practitioners. Topics across SQL Server, Azure SQL, Microsoft Fabric, Power BI, Real-Time Intelligence, Azure Data & AI, Databricks, data engineering, streaming, analytics, architecture, governance, AI, and professional development are welcome. The audience will include students and early-career professionals as well as experienced industry practitioners, and the venue supports two concurrent technical tracks.
+speakertext: We are accepting 45-60 minute session proposals through September 12, 2026 from local and regional data professionals, Microsoft MVPs, MCTs, community speakers, and industry practitioners. Topics across SQL Server, Azure SQL, Microsoft Fabric, Power BI, Real-Time Intelligence, Azure Data & AI, Azure Databricks, data engineering, streaming, analytics, architecture, governance, AI, and professional development are welcome. The audience will include students and early-career professionals as well as experienced industry practitioners, and the venue supports two concurrent technical tracks.
 speakerlisturl: 
 callforspeakersurl: https://sessionize.com/day-of-data-detroit-2026
 callforspeakers: true
@@ -68,7 +68,7 @@ organizers:
     url: https://www.linkedin.com/in/mourakshit/
 
 volunteers:
-  description: "Volunteers are very important to a successful event. Volunteer opportunities may include registration and check-in, room and session support, speaker coordination, sponsor support, setup and cleanup, and attendee assistance. Contact Mou Rakshit at mouraksh@umich.edu if you would like to help."
+  description: "Volunteers are very important to a successful event. Volunteer opportunities may include registration and check-in, room and session support, speaker coordination, setup and cleanup, and attendee assistance. Contact Mou Rakshit at mouraksh@umich.edu if you would like to help."
   volunteerurl: 
 
 social:
@@ -84,19 +84,14 @@ social:
 sponsorscontacturl: mailto:mouraksh@umich.edu?subject=Day%20of%20Data%20Detroit%202026%20-%20Sponsorship
 optInGlobalSponsor: 1
 sponsors:
-  - link: https://neo4j.com/
-    type: Community
-    image: https://dist.neo4j.com/wp-content/uploads/20210423072428/neo4j-logo-2020-1.svg
-    width: 400
 
 sponsorplan: |
   <h1><a name="sponsorship">Sponsorship Plan</a></h1>
-  <p><strong>Confirmed Community Sponsor: Neo4j - $250.</strong></p>
-  <p>Sponsors help support free technical education, speaker support, attendee food and beverages, event materials, and community engagement for Day of Data Detroit 2026.</p>
-  <p>Conference admission is completely free. A separate optional $15 lunch ticket is available for attendees who want the event-provided lunch.</p>
-  <p>Organizations working with SQL Server, Azure SQL, Microsoft Fabric, Power BI, Azure Data &amp; AI, Databricks, streaming, data engineering, analytics, AI, cloud, governance, security, developer tools, recruiting, and related technologies are especially encouraged to participate.</p>
+  <p>Sponsors help support free technical education, speaker support, attendee refreshments, event materials, and community engagement for Day of Data Detroit 2026.</p>
+  <p>Attendance is completely free for all attendees.</p>
+  <p>Organizations working with SQL Server, Azure SQL, Microsoft Fabric, Power BI, Real-Time Intelligence, Azure Data &amp; AI, Azure Databricks, streaming, data engineering, analytics, AI, cloud, governance, security, developer tools, recruiting, and related technologies are especially encouraged to participate.</p>
   <h2>Sponsorship Levels</h2>
-  <p>All sponsors will be recognized on the Day of Data Detroit event page and during the event. We also welcome useful in-kind contributions such as food support, gift cards, raffle items, software, training, or speaker support.</p>
+  <p>Sponsors will be recognized after support is confirmed and received. We also welcome useful in-kind contributions such as food support, gift cards, raffle items, software, training, or speaker support.</p>
   <style>
     table.detroit-sponsor {
       border-spacing: 0;
@@ -133,11 +128,10 @@ sponsorplan: |
   </table>
   <h2>In-Kind Sponsorship</h2>
   <ul>
-    <li><strong>Lunch / Food Support</strong> - attendee lunch, catering credit, restaurant or grocery gift cards.</li>
-    <li><strong>Coffee, Water, and Snacks</strong> - beverages and refreshments.</li>
+    <li><strong>Food and Refreshment Support</strong> - attendee food, catering credit, restaurant or grocery gift cards, bottled water, coffee, or snacks.</li>
     <li><strong>Speaker Support</strong> - speaker gifts or other speaker-related expenses.</li>
     <li><strong>Raffle / Giveaway Support</strong> - books, software, training, gift cards, or attendee prizes.</li>
   </ul>
   <h2>Nonprofit Sponsorship Processing</h2>
-  <p>SQL Saturday Corporation is a U.S. 501(c)(3) nonprofit organization. If your organization requires a nonprofit invoice or sponsorship receipt, contact the organizer so sponsorship processing through SQL Saturday Corporation can be coordinated.</p>
+  <p>SQL Saturday Corporation is a U.S. 501(c)(3) nonprofit organization. If your organization requires nonprofit documentation or a sponsorship receipt, contact the organizer so the appropriate sponsorship processing can be coordinated.</p>
   <p>For sponsorship opportunities, please email <a href="mailto:mouraksh@umich.edu">Mou Rakshit</a>.</p>
