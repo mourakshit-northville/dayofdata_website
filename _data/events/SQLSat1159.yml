@@ -1,6 +1,6 @@
 name: "Data of Day Winnipeg 2026"
 primarytag: "Winnipeg"
-logo: 
+logo: /assets/img/logos/SQLSat1159.png
 logocredit: 
 date: 2026-09-19 09:00:00 -0700
 virtual: false
@@ -12,11 +12,20 @@ description: |
 eventlocation: |
     University of Manitoba,<br/>
     Engineering and Information Technology Complex</br>
-    75 Chancellors Circle, Winnipeg MB
+    75 Chancellors Circle, Winnipeg MB<br/>
+    Most of the sessions will be held in rooms on the lower level.
 
-parkingdesc: 
+parkingdesc: |
+  Saturday parking on the Fort Garry campus is generally free in surface lots. The University Parkade is an exception and remains paid. Please follow any event-specific parking signage that may be in effect.
 
-eventlocationurl: 
+  - Lot U (near IG Field)
+  - Lot Q (Dysart Road)
+  - Lot L
+  - SD East / SD West lots
+
+  These are all within a reasonable walk of Engineering.
+
+eventlocationurl: https://www.google.com/maps/d/viewer?mid=1u58utXOFcUnjw-CWUBYxk2G0GXdy1D4&ll=49.807870699985024%2C-97.141336&z=15
 
 officialwebsite: 
 registrationurl: https://www.eventbrite.ca/e/data-of-data-winnipeg-2026-registration-1993036977250?aff=oddtdtcreator
@@ -27,13 +36,45 @@ precondetail:
 
 scheduleurl: 
 scheduletimezone: Central Summer Time UTC -5
-schedulehtml: 
+schedulehtml: |
+  <p style="text-align:center;">The schedule and sessions are subject to change.</p>
+  <table style="width:100%; border-collapse:collapse;">
+    <tr><td style="padding:8px; width:120px;"><strong>9:00 AM</strong></td><td style="padding:8px;">Morning sessions</td></tr>
+    <tr><td style="padding:8px;"><strong>10:10 AM</strong></td><td style="padding:8px;">Concurrent sessions</td></tr>
+    <tr><td style="padding:8px;"><strong>11:20 AM</strong></td><td style="padding:8px;">Concurrent sessions</td></tr>
+    <tr><td style="padding:8px;"><strong>12:20 PM</strong></td><td style="padding:8px;"><strong>Lunch</strong></td></tr>
+    <tr><td style="padding:8px;"><strong>1:30 PM</strong></td><td style="padding:8px;">Afternoon sessions</td></tr>
+    <tr><td style="padding:8px;"><strong>2:40 PM</strong></td><td style="padding:8px;">Concurrent sessions</td></tr>
+    <tr><td style="padding:8px;"><strong>3:40 PM</strong></td><td style="padding:8px;"><strong>Prize draw</strong></td></tr>
+  </table>
 
 eventcountdown: false
 
 countdownscript:
  
-speakertext: 
+speakertext: |
+  Meet the confirmed speakers for Day of Data Winnipeg 2026. More sessions and speakers will be announced soon. The schedule and sessions are subject to change.<br><br>
+  <table style="width:100%; border-collapse:collapse; text-align:left;">
+    <tr style="background-color:#e6f2ff; border-left:4px solid #4793e0;">
+      <td style="width:100px; padding:10px; vertical-align:top;"><img src="https://cdn.sessionize.com/image/4d6c-400o400o1-78-2fa7-4341-8df3-ee92bdffde70.1120046c-f723-48af-91d8-ca3bd00d167f.JPG" alt="Karen Lopez" width="80" height="80"></td>
+      <td style="padding:10px;"><strong>Karen Lopez</strong><br><em>Data Evangelist for InfoAdvisors, Space Enthusiast, &amp; TeamData Coach</em><br><strong>Microsoft SQL and AMD in the Era of AI</strong> &mdash; Explore how Microsoft SQL Server 2025 and AMD provide a secure, performant foundation for modern AI workloads. <strong>Microsoft-sponsored session.</strong><br><br><strong>A Database Designer's Favorite Security and Privacy Features in SQL Server/Azure DB</strong> &mdash; Review practical security, privacy, and developer-productivity features, including Always Encrypted, row-level security, data classification, and Ledger.</td>
+    </tr>
+    <tr style="background-color:#eaf6ee; border-left:4px solid #2e8b57;">
+      <td style="width:100px; padding:10px; vertical-align:top;"><img src="https://cdn.sessionize.com/image/3433-400o400o1-XWrArK8S2iC6oXkrNR5Ygn.png" alt="Jennifer Bodnarchuk" width="80" height="80"></td>
+      <td style="padding:10px;"><strong>Jennifer Bodnarchuk</strong><br><em>City of Winnipeg, Coordinator of Data &amp; Analytics</em><br><strong>City of Winnipeg Open Data Portal</strong> &mdash; Discover what the City's Open Data Portal offers, how Winnipeg uses its data, and how the community can work with it.<br><br><strong>Data for Good's Newest Chapter: Winnipeg!</strong> &mdash; Join Jennifer and Kate Kehler for an introduction to Winnipeg's new Data for Good chapter.</td>
+    </tr>
+    <tr><td style="width:100px; padding:10px; vertical-align:top;"><img src="https://cdn.sessionize.com/image/03a6-400o400o1-sVevZtiPCBik9oHt4jpwNZ.jpg" alt="Rick Lowe" width="80" height="80"></td><td style="padding:10px;"><strong>Rick Lowe</strong><br><em>Data FLowe Solutions LLC</em><br><strong>Query Hints ... What's the Worst That Can Happen</strong> &mdash; See how abused SQL Server query hints can produce unexpected and dangerous results.</td></tr>
+    <tr><td style="padding:10px;"><img src="https://cdn.sessionize.com/image/f26c-400o400o1-P8t3N7eiFuLBw2tJ4b2PY1.jpg" alt="Sudhir Amin" width="80" height="80"></td><td style="padding:10px;"><strong>Sudhir Amin</strong><br><em>Sr Database Specialist Solution Architect</em><br><strong>Autonomous Database Operations using Agentic AI for SQL Server</strong> &mdash; Demonstrate health-check, optimization, and supervisor agents operating within safety guardrails.</td></tr>
+    <tr><td style="padding:10px;"><img src="https://cdn.sessionize.com/image/a12b-400o400o1-GzscnC7RBMYS7sGjfhSkG3.jpg" alt="Louis-Francois Bouchard" width="80" height="80"></td><td style="padding:10px;"><strong>Louis-Francois Bouchard</strong><br><em>CTO &amp; Co-Founder, Towards AI</em><br><strong>Building a versatile skill, code and notes system working with any harness</strong> &mdash; Turn a large knowledge base into an efficient research memory for AI agents.</td></tr>
+    <tr><td style="padding:10px;"><img src="https://cdn.sessionize.com/image/1b36-400o400o1-BGK9runUGSbjS4EFKZNXcG.jpg" alt="Hannah Vernon" width="80" height="80"></td><td style="padding:10px;"><strong>Hannah Vernon</strong><br><em>Senior Database Reliability Engineer, sqlserverscience.com</em><br><strong>ALTER DBA ADD AGENT</strong> &mdash; Learn where AI coding agents help DBAs, where they fail, and how supervised risk-tiered workflows catch mistakes.</td></tr>
+    <tr><td style="padding:10px;"><img src="https://cdn.sessionize.com/image/b890-400o400o1-TpGj7HuNpv1i24QLqiBoPE.jpg" alt="Alex Campomanes" width="80" height="80"></td><td style="padding:10px;"><strong>Alex Campomanes</strong><br><em>Executive Director of Advancement Services, University of Manitoba</em><br><strong>Bring AI to the Data</strong> &mdash; Build a governed, self-hosted enterprise AI solution that brings the model to CRM data.</td></tr>
+    <tr><td style="padding:10px;"><img src="https://cdn.sessionize.com/image/ea63-400o400o1-JdF9eoArNRxXpMhFDvc2x7.jpg" alt="Huzhi Zhao" width="80" height="80"></td><td style="padding:10px;"><strong>Huzhi Zhao</strong><br><em>Backend &amp; Data Engineer | Applied AI post-grad student</em><br><strong>AI-Driven Lakehouse Pipeline for Winnipeg Winter Operations</strong> &mdash; Combine snowfall, 311 reports, schedules, and AI to rank winter-operations demand.</td></tr>
+    <tr><td style="padding:10px;"><img src="https://cdn.sessionize.com/image/ed0d-400o400o1-LaiVNEr18Bu7cjKz4WWGKo.png" alt="Temitope Oladele" width="80" height="80"></td><td style="padding:10px;"><strong>Temitope Oladele (PhD)</strong><br><em>Data Engineering, MDM, AI</em><br><strong>AI-Driven Lakehouse Pipeline for Winnipeg Winter Operations</strong> &mdash; Co-supervise a civic data platform that turns operational records into actionable rankings.</td></tr>
+    <tr><td style="padding:10px;"><img src="https://cdn.sessionize.com/image/19d0-400o400o1-YSxVzcjGvJewJqHhnuLsP8.jpg" alt="Thimantha Vidanagamage" width="80" height="80"></td><td style="padding:10px;"><strong>Thimantha Vidanagamage</strong><br><em>Senior Data Engineer at OMERS, Canada</em><br><strong>Architectural Divergence: Exploring the Exclusive Features of Microsoft Fabric Warehouse</strong> &mdash; Understand the Fabric Warehouse capabilities that distinguish it from traditional platforms.</td></tr>
+    <tr><td style="padding:10px;"><img src="https://cdn.sessionize.com/image/40cb-400o400o1-LCL2Vc5u9GgjSB8jmjf7L7.jpg" alt="Kate Kehler" width="80" height="80"></td><td style="padding:10px;"><strong>Kate Kehler</strong><br><em>Social Planning Council of Winnipeg</em><br><strong>Data for Good's Newest Chapter: Winnipeg!</strong> &mdash; Help introduce the new Winnipeg chapter and its community-focused data work.</td></tr>
+    <tr><td style="padding:10px;"><img src="https://cdn.sessionize.com/image/f381-400o400o1-hPrYqBccGndVp66b97y3hh.jpg" alt="Nonso Ikenwa" width="80" height="80"></td><td style="padding:10px;"><strong>Nonso Ikenwa</strong><br><em>Technical Consultant, Dayzy Foods</em><br><strong>DevOps for Data Engineers</strong> &mdash; Apply version control, testing, environment parity, and disciplined deployments to data products.</td></tr>
+    <tr><td style="padding:10px; vertical-align:top;">&nbsp;</td><td style="padding:10px;"><strong>Anastasiia Kasprova</strong><br><em>Improving Winnipeg, Senior Consultant, PhD</em><br><strong>Using AI and Data Engineering to Decode the Data Job Market</strong> &mdash; Build an AI-assisted pipeline and interactive app to reveal skills and technology trends.</td></tr>
+  </table>
 speakerlisturl: 
 callforspeakersurl: https://sessionize.com/day-of-data-winnipeg-2026/
 callforspeakers:  true
