@@ -144,36 +144,27 @@ social:
 sponsorscontacturl: mailto:mouraksh@umich.edu?subject=Day%20of%20Data%20Detroit%202026%20-%20Sponsorship
 optInGlobalSponsor: 1
 sponsors:
-  - link: https://neo4j.com/
+  - link: https://dayofdata.org/2026-09-12-dayofdata1164/#sponsorship
     type: Community Sponsor
-    image: https://dist.neo4j.com/wp-content/uploads/20210423072428/neo4j-logo-2020-1.svg
-    width: 145
-  - link: https://cfsem.org/
-    type: Community Sponsor
-    image: https://cfsem.org/wp-content/uploads/2019/02/CFSEM_Logo_Stacked.png
-    width: 150
-    alt: Community Foundation for Southeast Michigan
-  - link: https://carsley.com/
-    type: Community Sponsor
-    image: https://carsley.com/media/3wenrz1g/carsley_rgb.svg
-    width: 145
-    alt: Carsley Solutions
-  - link: https://www.jetbrains.com/
+    name: |
+      <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:26px;margin:8px 0 12px 0;">
+        <span style="display:inline-flex;flex-direction:column;align-items:center;gap:5px;min-width:105px;"><img src="https://dist.neo4j.com/wp-content/uploads/20210423072428/neo4j-logo-2020-1.svg" alt="Neo4j" style="max-width:88px;max-height:48px;width:auto;height:auto;"/><small>Neo4j</small></span>
+        <span style="display:inline-flex;flex-direction:column;align-items:center;gap:5px;min-width:105px;"><img src="https://cfsem.org/wp-content/uploads/2019/02/CFSEM_Logo_Stacked.png" alt="Community Foundation for Southeast Michigan" style="max-width:82px;max-height:52px;width:auto;height:auto;"/><small>Community Foundation for Southeast Michigan</small></span>
+        <span style="display:inline-flex;flex-direction:column;align-items:center;gap:5px;min-width:105px;"><img src="https://carsley.com/media/3wenrz1g/carsley_rgb.svg" alt="Carsley Solutions" style="max-width:88px;max-height:48px;width:auto;height:auto;"/><small>Carsley Solutions</small></span>
+      </div>
+  - link: https://dayofdata.org/2026-09-12-dayofdata1164/#sponsorship
     type: Community Partner
-    image: https://resources.jetbrains.com/storage/products/company/brand/logos/jetbrains.svg
-    width: 140
-    alt: JetBrains
-    textdesc: "Product subscriptions provided by JetBrains for attendee giveaways. JetBrains and the JetBrains logo are trademarks of JetBrains s.r.o."
-  - link: https://www.buschs.com/
-    type: Community Partner
-    name: "Busch's Fresh Food Market"
-    alt: "Busch's Fresh Food Market"
-    textdesc: "Community food support for Day of Data Detroit 2026."
+    name: |
+      <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:flex-start;gap:34px;margin:6px 0 10px 0;">
+        <span style="display:inline-flex;flex-direction:column;align-items:center;gap:5px;min-width:90px;"><img src="https://www.google.com/s2/favicons?domain=buschs.com&sz=128" alt="Busch's Fresh Food Market" width="44" height="44" style="width:44px;height:44px;object-fit:contain;"/><small>Busch's Fresh Food Market</small></span>
+        <span style="display:inline-flex;flex-direction:column;align-items:center;gap:5px;min-width:90px;"><img src="https://www.google.com/s2/favicons?domain=evergreenorientalinc.com&sz=128" alt="Evergreen Restaurant Group" width="44" height="44" style="width:44px;height:44px;object-fit:contain;"/><small>Evergreen Restaurant Group</small></span>
+        <span style="display:inline-flex;flex-direction:column;align-items:center;gap:5px;min-width:90px;"><img src="https://www.google.com/s2/favicons?domain=buddyspizza.com&sz=128" alt="Buddy's Pizza" width="44" height="44" style="width:44px;height:44px;object-fit:contain;"/><small>Buddy's Pizza</small></span>
+      </div>
 
 sponsorplan: |
   <h1><a name="sponsorship">Sponsorship Plan</a></h1>
   <p><strong>Confirmed Community Sponsors: Neo4j - $250; Community Foundation for Southeast Michigan - $250; Carsley Solutions - $250.</strong></p>
-  <p><strong>Community Partners:</strong> JetBrains; Busch's Fresh Food Market.</p>
+  <p><strong>Community Partners / In-Kind Donors:</strong> Busch's Fresh Food Market - $100 gift card plus bottled water; Evergreen Restaurant Group - four $25 e-gift cards ($100 total); Buddy's Pizza - $100 gift card.</p>
   <p>Sponsors help support free technical education, speaker support, attendee food and beverages, event materials, and community engagement for Day of Data Detroit 2026.</p>
   <p>Organizations working with SQL Server, Azure SQL, Microsoft Fabric, Power BI, Azure Data &amp; AI, Databricks, streaming, data engineering, analytics, AI, cloud, governance, security, developer tools, recruiting, and related technologies are especially encouraged to participate.</p>
   <h2>Sponsorship Levels</h2>
