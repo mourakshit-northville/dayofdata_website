@@ -148,34 +148,33 @@ sponsors:
     type: Community Sponsor
     name: |
       <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:26px;margin:8px 0 12px 0;">
-        <span style="display:inline-flex;flex-direction:column;align-items:center;gap:5px;min-width:105px;"><img src="https://dist.neo4j.com/wp-content/uploads/20210423072428/neo4j-logo-2020-1.svg" alt="Neo4j" style="max-width:88px;max-height:48px;width:auto;height:auto;"/><small>Neo4j</small></span>
-        <span style="display:inline-flex;flex-direction:column;align-items:center;gap:5px;min-width:105px;"><img src="https://cfsem.org/wp-content/uploads/2019/02/CFSEM_Logo_Stacked.png" alt="Community Foundation for Southeast Michigan" style="max-width:82px;max-height:52px;width:auto;height:auto;"/><small>Community Foundation for Southeast Michigan</small></span>
-        <span style="display:inline-flex;flex-direction:column;align-items:center;gap:5px;min-width:105px;"><img src="https://carsley.com/media/3wenrz1g/carsley_rgb.svg" alt="Carsley Solutions" style="max-width:88px;max-height:48px;width:auto;height:auto;"/><small>Carsley Solutions</small></span>
+        <span style="display:inline-flex;align-items:center;justify-content:center;min-width:95px;"><img src="https://dist.neo4j.com/wp-content/uploads/20210423072428/neo4j-logo-2020-1.svg" alt="Neo4j" style="max-width:78px;max-height:42px;width:auto;height:auto;"/></span>
+        <span style="display:inline-flex;align-items:center;justify-content:center;min-width:95px;"><img src="https://cfsem.org/wp-content/uploads/2019/02/CFSEM_Logo_Stacked.png" alt="Community Foundation for Southeast Michigan" style="max-width:72px;max-height:46px;width:auto;height:auto;"/></span>
+        <span style="display:inline-flex;align-items:center;justify-content:center;min-width:95px;"><img src="https://carsley.com/media/3wenrz1g/carsley_rgb.svg" alt="Carsley Solutions" style="max-width:78px;max-height:42px;width:auto;height:auto;"/></span>
       </div>
   - link: https://dayofdata.org/2026-09-12-dayofdata1164/#sponsorship
     type: Community Partner
     name: |
-      <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:flex-start;gap:34px;margin:6px 0 10px 0;">
-        <span style="display:inline-flex;flex-direction:column;align-items:center;gap:5px;min-width:90px;"><img src="https://www.google.com/s2/favicons?domain=buschs.com&sz=128" alt="Busch's Fresh Food Market" width="44" height="44" style="width:44px;height:44px;object-fit:contain;"/><small>Busch's Fresh Food Market</small></span>
-        <span style="display:inline-flex;flex-direction:column;align-items:center;gap:5px;min-width:90px;"><img src="https://www.google.com/s2/favicons?domain=evergreenorientalinc.com&sz=128" alt="Evergreen Restaurant Group" width="44" height="44" style="width:44px;height:44px;object-fit:contain;"/><small>Evergreen Restaurant Group</small></span>
-        <span style="display:inline-flex;flex-direction:column;align-items:center;gap:5px;min-width:90px;"><img src="https://www.google.com/s2/favicons?domain=buddyspizza.com&sz=128" alt="Buddy's Pizza" width="44" height="44" style="width:44px;height:44px;object-fit:contain;"/><small>Buddy's Pizza</small></span>
+      <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:30px;margin:6px 0 10px 0;">
+        <span style="display:inline-flex;align-items:center;justify-content:center;"><img src="https://www.google.com/s2/favicons?domain=buschs.com&sz=128" alt="Busch's Fresh Food Market" width="40" height="40" style="width:40px;height:40px;object-fit:contain;"/></span>
+        <span style="display:inline-flex;align-items:center;justify-content:center;"><img src="https://www.google.com/s2/favicons?domain=evergreenorientalinc.com&sz=128" alt="Evergreen Restaurant Group" width="40" height="40" style="width:40px;height:40px;object-fit:contain;"/></span>
+        <span style="display:inline-flex;align-items:center;justify-content:center;"><img src="https://www.google.com/s2/favicons?domain=buddyspizza.com&sz=128" alt="Buddy's Pizza" width="40" height="40" style="width:40px;height:40px;object-fit:contain;"/></span>
       </div>
 
 sponsorplan: |
   <h1><a name="sponsorship">Sponsorship Plan</a></h1>
-  <p><strong>Confirmed Community Sponsors: Neo4j - $250; Community Foundation for Southeast Michigan - $250; Carsley Solutions - $250.</strong></p>
-  <p><strong>Community Partners / In-Kind Donors:</strong> Busch's Fresh Food Market - $100 gift card plus bottled water; Evergreen Restaurant Group - four $25 e-gift cards ($100 total); Buddy's Pizza - $100 gift card.</p>
+  <p>Sponsors and community partners are recognized on the Day of Data Detroit event page and during the event.</p>
   <p>Sponsors help support free technical education, speaker support, attendee food and beverages, event materials, and community engagement for Day of Data Detroit 2026.</p>
   <p>Organizations working with SQL Server, Azure SQL, Microsoft Fabric, Power BI, Azure Data &amp; AI, Databricks, streaming, data engineering, analytics, AI, cloud, governance, security, developer tools, recruiting, and related technologies are especially encouraged to participate.</p>
   <h2>Sponsorship Levels</h2>
-  <p>All sponsors will be recognized on the Day of Data Detroit event page and during the event. We also welcome useful in-kind contributions such as food support, gift cards, raffle items, software, training, or speaker support.</p>
+  <p>We welcome both financial and in-kind sponsorship support.</p>
   <style>
     table.detroit-sponsor { border-spacing: 0; border-collapse: collapse; width: 100%; text-align: center; }
     table.detroit-sponsor th, table.detroit-sponsor td { border: 1px solid #999; padding: 8px; }
     table.detroit-sponsor th:first-child, table.detroit-sponsor td:first-child { text-align: left; }
   </style>
   <table class="detroit-sponsor">
-    <thead><tr><th>Benefit</th><th>Community Supporter<br/>$100</th><th>Community Sponsor<br/>$250</th><th>Supporting<br/>$500</th></tr></thead>
+    <thead><tr><th>Benefit</th><th>Community Supporter</th><th>Community Sponsor</th><th>Supporting Sponsor</th></tr></thead>
     <tbody>
       <tr><td>Company name/logo on event page</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
       <tr><td>Official sponsor recognition during the event</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
