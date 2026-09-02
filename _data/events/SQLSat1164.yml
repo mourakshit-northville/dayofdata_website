@@ -103,6 +103,11 @@ sponsors:
     image: https://cfsem.org/wp-content/uploads/2019/02/CFSEM_Logo_Stacked.png
     width: 210
     alt: Community Foundation for Southeast Michigan
+  - link: https://carsley.com/
+    type: Community Sponsor
+    image: https://carsley.com/media/3wenrz1g/carsley_rgb.svg
+    width: 200
+    alt: Carsley Solutions
   - link: https://www.jetbrains.com/
     type: Community Partner
     image: https://resources.jetbrains.com/storage/products/company/brand/logos/jetbrains.svg
@@ -112,7 +117,7 @@ sponsors:
 
 sponsorplan: |
   <h1><a name="sponsorship">Sponsorship Plan</a></h1>
-  <p><strong>Confirmed Community Sponsors: Neo4j - $250; Community Foundation for Southeast Michigan - $250.</strong></p>
+  <p><strong>Confirmed Community Sponsors: Neo4j - $250; Community Foundation for Southeast Michigan - $250; Carsley Solutions - $250.</strong></p>
   <p>Sponsors help support free technical education, speaker support, attendee food and beverages, event materials, and community engagement for Day of Data Detroit 2026.</p>
   <p>Organizations working with SQL Server, Azure SQL, Microsoft Fabric, Power BI, Azure Data &amp; AI, Databricks, streaming, data engineering, analytics, AI, cloud, governance, security, developer tools, recruiting, and related technologies are especially encouraged to participate.</p>
   <h2>Sponsorship Levels</h2>
