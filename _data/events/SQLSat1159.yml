@@ -42,7 +42,7 @@ schedulehtml: |
     <tr><td style="padding:8px; width:120px;"><strong>9:00 AM</strong></td><td style="padding:8px;">Morning sessions</td></tr>
     <tr><td style="padding:8px;"><strong>10:10 AM</strong></td><td style="padding:8px;">Concurrent sessions</td></tr>
     <tr><td style="padding:8px;"><strong>11:20 AM</strong></td><td style="padding:8px;">Concurrent sessions</td></tr>
-    <tr><td style="padding:8px;"><strong>12:20 PM</strong></td><td style="padding:8px;"><strong>Lunch</strong></td></tr>
+    <tr><td style="padding:8px;"><strong>12:20 PM</strong></td><td style="padding:8px;"><strong>Lunch</strong><br><span style="background-color:#fff3cd; border-left:4px solid #ffc107; padding:6px 10px; display:inline-block;">Please purchase the box lunch add-on ticket in EventBrite or bring your own. Dining and takeout options on campus are very limited on Saturdays.</span></td></tr>
     <tr><td style="padding:8px;"><strong>1:30 PM</strong></td><td style="padding:8px;">Afternoon sessions</td></tr>
     <tr><td style="padding:8px;"><strong>2:40 PM</strong></td><td style="padding:8px;">Concurrent sessions</td></tr>
     <tr><td style="padding:8px;"><strong>3:40 PM</strong></td><td style="padding:8px;"><strong>Prize draw</strong></td></tr>
