@@ -56,8 +56,57 @@ parkingdesc: |
   <strong>Parking questions:</strong> AADL recommended contacting the downtown parking administrator at (734) 761-7235 or <a href="mailto:a2parkingadmin@municipalparking.com">a2parkingadmin@municipalparking.com</a>. For TheRide route assistance, call 734-996-0400.
 lunchcost: 
 
-scheduleurl: 
+scheduleurl: https://sessionize.com/day-of-data-detroit-2026
 scheduletimezone: Eastern Daylight Time UTC -4
+schedulehtml: |
+  <p style="text-align:center;"><strong>Saturday, September 12, 2026</strong><br/>All sessions are 60 minutes. Times shown are Eastern Daylight Time.</p>
+  <style>
+    table.detroit-schedule { width: 100%; border-collapse: collapse; table-layout: fixed; }
+    table.detroit-schedule th, table.detroit-schedule td { border: 1px solid #aaa; padding: 10px; vertical-align: top; }
+    table.detroit-schedule th { text-align: center; }
+    table.detroit-schedule td:first-child { width: 14%; font-weight: 600; white-space: nowrap; }
+    table.detroit-schedule .speaker { display: block; margin-top: 4px; font-weight: 600; }
+    @media (max-width: 700px) {
+      table.detroit-schedule { table-layout: auto; font-size: 0.9rem; }
+      table.detroit-schedule th, table.detroit-schedule td { padding: 7px; }
+      table.detroit-schedule td:first-child { white-space: normal; }
+    }
+  </style>
+  <div style="overflow-x:auto;">
+    <table class="detroit-schedule">
+      <thead>
+        <tr><th>Time</th><th>Room 1</th><th>Room 2</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>10:30 AM</td>
+          <td><strong>AI-Powered Real-Time Intelligence: Transforming Data-Driven Decisions with Microsoft Fabric &amp; GenAI</strong><span class="speaker">Mou Rakshit</span></td>
+          <td><strong>&quot;Black Arts&quot; Index Maintenance 3 - LOBs - Defragmented by Default</strong><span class="speaker">Jeff Moden</span></td>
+        </tr>
+        <tr>
+          <td>11:30 AM</td>
+          <td><strong>Data Engineering Roadmaps: Why creating roadmaps is difficult for data engineering teams</strong><span class="speaker">Harini Rajagopal</span></td>
+          <td><strong>Analytics and AI in Automotive Warranty and Supply Chain</strong><span class="speaker">Sumit Basu</span></td>
+        </tr>
+        <tr>
+          <td>1:30 PM</td>
+          <td><strong>From Sensor to Answer: A Closed-Loop Predictive-Maintenance System You Can Talk To</strong><span class="speaker">Pete Welch</span></td>
+          <td><strong>Crosstabs and Pre-Aggregations - Reporting on Steroids</strong><span class="speaker">Jeff Moden</span></td>
+        </tr>
+        <tr>
+          <td>2:25 / 2:30 PM</td>
+          <td><strong>2:30 PM - Designing Conversational BI: How Azure Databricks AI/BI Genie Unlocks Self-Service Insights</strong><span class="speaker">Mou Rakshit</span></td>
+          <td><strong>2:25 PM - Strengthen Your Speaking Skills</strong><span class="speaker">Sammie Walker Herrera</span></td>
+        </tr>
+        <tr>
+          <td>3:25 PM</td>
+          <td><strong>From Data to Decisions: Building Agentic Construction Intel using Azure Databricks Agent Bricks</strong><span class="speaker">Mou Rakshit</span></td>
+          <td><strong>Can An AI Assistant Help You With Your Database Chores?</strong><span class="speaker">Dave Stokes</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p style="text-align:center; margin-top:12px;"><a href="https://sessionize.com/day-of-data-detroit-2026" target="_blank" rel="noopener noreferrer">View Day of Data Detroit 2026 on Sessionize</a></p>
 
 eventcountdown: true
 countdownscript: |
