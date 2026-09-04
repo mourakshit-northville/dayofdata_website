@@ -147,18 +147,18 @@ sponsors:
   - link: https://dayofdata.org/2026-09-12-dayofdata1164/#sponsorship
     type: Community Sponsor
     name: |
-      <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:36px;margin:10px 0 16px 0;">
-        <span style="display:inline-flex;align-items:center;justify-content:center;min-width:130px;"><img src="https://carsley.com/media/3wenrz1g/carsley_rgb.svg" alt="Carsley Solutions" style="max-width:115px;max-height:58px;width:auto;height:auto;"/></span>
-        <span style="display:inline-flex;align-items:center;justify-content:center;min-width:130px;"><img src="https://cfsem.org/wp-content/uploads/2019/02/CFSEM_Logo_Stacked.png" alt="Community Foundation for Southeast Michigan" style="max-width:105px;max-height:62px;width:auto;height:auto;"/></span>
-        <span style="display:inline-flex;align-items:center;justify-content:center;min-width:130px;"><img src="https://dist.neo4j.com/wp-content/uploads/20210423072428/neo4j-logo-2020-1.svg" alt="Neo4j" style="max-width:115px;max-height:58px;width:auto;height:auto;"/></span>
+      <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:38px;margin:10px 0 16px 0;">
+        <span style="display:inline-flex;align-items:center;justify-content:center;min-width:140px;"><img src="https://carsley.com/media/3wenrz1g/carsley_rgb.svg" alt="Carsley Solutions" style="max-width:125px;max-height:64px;width:auto;height:auto;"/></span>
+        <span style="display:inline-flex;align-items:center;justify-content:center;min-width:140px;"><img src="https://cfsem.org/wp-content/uploads/2019/02/CFSEM_Logo_Stacked.png" alt="Community Foundation for Southeast Michigan" style="max-width:115px;max-height:68px;width:auto;height:auto;"/></span>
+        <span style="display:inline-flex;align-items:center;justify-content:center;min-width:140px;"><img src="https://dist.neo4j.com/wp-content/uploads/20210423072428/neo4j-logo-2020-1.svg" alt="Neo4j" style="max-width:125px;max-height:64px;width:auto;height:auto;"/></span>
       </div>
   - link: https://dayofdata.org/2026-09-12-dayofdata1164/#sponsorship
     type: Community Partner
     name: |
-      <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:34px;margin:8px 0 12px 0;">
-        <span style="display:inline-flex;align-items:center;justify-content:center;gap:9px;min-width:190px;"><img src="https://www.google.com/s2/favicons?domain=buschs.com&sz=128" alt="Busch's Fresh Food Market" width="56" height="56" style="width:56px;height:56px;object-fit:contain;"/><strong style="font-size:0.95rem;white-space:nowrap;">Busch's Fresh Food Market</strong></span>
-        <span style="display:inline-flex;align-items:center;justify-content:center;min-width:180px;"><img src="https://www.evergreenorientalinc.com/images/evergreen_logo2.jpg" alt="Evergreen Restaurant" style="max-width:165px;max-height:76px;width:auto;height:auto;object-fit:contain;"/></span>
-        <span style="display:inline-flex;align-items:center;justify-content:center;"><img src="https://www.google.com/s2/favicons?domain=buddyspizza.com&sz=128" alt="Buddy's Pizza" width="54" height="54" style="width:54px;height:54px;object-fit:contain;"/></span>
+      <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:flex-start;gap:38px;margin:8px 0 12px 0;">
+        <span style="display:inline-flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:6px;min-width:145px;"><img src="https://www.google.com/s2/favicons?domain=buschs.com&sz=128" alt="Busch's Fresh Food Market" width="64" height="64" style="width:64px;height:64px;object-fit:contain;"/><strong style="font-size:0.88rem;text-align:center;line-height:1.15;max-width:145px;">Busch's Fresh Food Market</strong></span>
+        <span style="display:inline-flex;align-items:center;justify-content:center;min-width:180px;"><img src="https://www.evergreenorientalinc.com/images/evergreen_logo2.jpg" alt="Evergreen Restaurant" style="max-width:175px;max-height:84px;width:auto;height:auto;object-fit:contain;"/></span>
+        <span style="display:inline-flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:6px;min-width:120px;"><img src="https://www.google.com/s2/favicons?domain=jerseymikes.com&sz=128" alt="Jersey Mike's Subs" width="64" height="64" style="width:64px;height:64px;object-fit:contain;"/><strong style="font-size:0.88rem;text-align:center;line-height:1.15;max-width:120px;">Jersey Mike's Subs</strong></span>
       </div>
 
 sponsorplan: |
@@ -168,21 +168,6 @@ sponsorplan: |
   <p>Organizations working with SQL Server, Azure SQL, Microsoft Fabric, Power BI, Azure Data &amp; AI, Databricks, streaming, data engineering, analytics, AI, cloud, governance, security, developer tools, recruiting, and related technologies are especially encouraged to participate.</p>
   <h2>Sponsorship Levels</h2>
   <p>We welcome both financial and in-kind sponsorship support.</p>
-  <style>
-    table.detroit-sponsor { border-spacing: 0; border-collapse: collapse; width: 100%; text-align: center; }
-    table.detroit-sponsor th, table.detroit-sponsor td { border: 1px solid #999; padding: 8px; }
-    table.detroit-sponsor th:first-child, table.detroit-sponsor td:first-child { text-align: left; }
-  </style>
-  <table class="detroit-sponsor">
-    <thead><tr><th>Benefit</th><th>Community Supporter</th><th>Community Sponsor</th><th>Supporting Sponsor</th></tr></thead>
-    <tbody>
-      <tr><td>Company name/logo on event page</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
-      <tr><td>Official sponsor recognition during the event</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
-      <tr><td>Provide branded giveaways, raffle items, or recruiting materials</td><td>-</td><td>Yes</td><td>Yes</td></tr>
-      <tr><td>Recognition in selected event communications and social media</td><td>-</td><td>-</td><td>Yes</td></tr>
-      <tr><td>More prominent logo and sponsor recognition</td><td>-</td><td>-</td><td>Yes</td></tr>
-    </tbody>
-  </table>
   <h2>In-Kind Sponsorship</h2>
   <ul>
     <li><strong>Lunch / Food Support</strong> - attendee lunch, catering credit, restaurant or grocery gift cards.</li>
