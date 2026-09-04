@@ -160,12 +160,15 @@ sponsors:
         <span style="display:inline-flex;align-items:center;justify-content:center;min-width:140px;"><img src="https://carsley.com/media/3wenrz1g/carsley_rgb.svg" alt="Carsley Solutions" style="max-width:125px;max-height:64px;width:auto;height:auto;"/></span>
       </div>
   - link: https://dayofdata.org/2026-09-12-dayofdata1164/#sponsorship
-    type: Community Partner
+    type: Friends & In-Kind Supporters
     name: |
-      <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:flex-start;gap:38px;margin:8px 0 12px 0;">
+      <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:flex-start;gap:32px;margin:8px 0 12px 0;">
         <span style="display:inline-flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:6px;min-width:145px;"><img src="https://www.google.com/s2/favicons?domain=buschs.com&sz=128" alt="Busch's Fresh Food Market" width="64" height="64" style="width:64px;height:64px;object-fit:contain;"/><strong style="font-size:0.88rem;text-align:center;line-height:1.15;max-width:145px;">Busch's Fresh Food Market</strong></span>
+        <span style="display:inline-flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:6px;min-width:125px;"><img src="https://www.google.com/s2/favicons?domain=dominos.com&sz=128" alt="Domino's" width="64" height="64" style="width:64px;height:64px;object-fit:contain;"/><strong style="font-size:0.88rem;text-align:center;line-height:1.15;">Domino's</strong></span>
         <span style="display:inline-flex;align-items:center;justify-content:center;min-width:180px;"><img src="https://www.evergreenorientalinc.com/images/evergreen_logo2.jpg" alt="Evergreen Restaurant" style="max-width:175px;max-height:84px;width:auto;height:auto;object-fit:contain;"/></span>
-        <span style="display:inline-flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:6px;min-width:120px;"><img src="https://www.google.com/s2/favicons?domain=jerseymikes.com&sz=128" alt="Jersey Mike's Subs" width="64" height="64" style="width:64px;height:64px;object-fit:contain;"/><strong style="font-size:0.88rem;text-align:center;line-height:1.15;max-width:120px;">Jersey Mike's Subs</strong></span>
+        <span style="display:inline-flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:6px;min-width:145px;"><img src="https://www.google.com/s2/favicons?domain=jerseymikes.com&sz=128" alt="Jersey Mike's Subs" width="64" height="64" style="width:64px;height:64px;object-fit:contain;"/><strong style="font-size:0.88rem;text-align:center;line-height:1.15;">Jersey Mike's Subs</strong></span>
+        <span style="display:inline-flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:6px;min-width:170px;"><img src="https://www.google.com/s2/favicons?domain=aadl.org&sz=128" alt="Ann Arbor District Library" width="64" height="64" style="width:64px;height:64px;object-fit:contain;"/><strong style="font-size:0.88rem;text-align:center;line-height:1.15;max-width:170px;">Ann Arbor District Library</strong></span>
+        <span style="display:inline-flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:6px;min-width:140px;"><img src="https://www.google.com/s2/favicons?domain=sqlsaturday.com&sz=128" alt="SQL Saturday" width="64" height="64" style="width:64px;height:64px;object-fit:contain;"/><strong style="font-size:0.88rem;text-align:center;line-height:1.15;">SQL Saturday</strong></span>
       </div>
 
 sponsorplan: |
