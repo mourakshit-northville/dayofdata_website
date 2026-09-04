@@ -148,10 +148,16 @@ sponsors:
     type: Community Sponsor
     name: |
       <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:38px;margin:10px 0 16px 0;">
-        <span style="display:inline-flex;align-items:center;justify-content:center;min-width:140px;"><img src="https://carsley.com/media/3wenrz1g/carsley_rgb.svg" alt="Carsley Solutions" style="max-width:125px;max-height:64px;width:auto;height:auto;"/></span>
+        <span style="display:inline-flex;align-items:center;justify-content:center;min-width:140px;"><img src="https://annarborusa.org/wp-content/uploads/2022/08/spark-logo.svg" alt="Ann Arbor SPARK" style="max-width:125px;max-height:64px;width:auto;height:auto;"/></span>
         <span style="display:inline-flex;align-items:center;justify-content:center;min-width:140px;"><img src="https://cfsem.org/wp-content/uploads/2019/02/CFSEM_Logo_Stacked.png" alt="Community Foundation for Southeast Michigan" style="max-width:115px;max-height:68px;width:auto;height:auto;"/></span>
         <span style="display:inline-flex;align-items:center;justify-content:center;min-width:140px;"><img src="https://dist.neo4j.com/wp-content/uploads/20210423072428/neo4j-logo-2020-1.svg" alt="Neo4j" style="max-width:125px;max-height:64px;width:auto;height:auto;"/></span>
-        <span style="display:inline-flex;align-items:center;justify-content:center;min-width:140px;"><img src="https://annarborusa.org/wp-content/uploads/2022/08/spark-logo.svg" alt="Ann Arbor SPARK" style="max-width:125px;max-height:64px;width:auto;height:auto;"/></span>
+        <span style="display:inline-flex;align-items:center;justify-content:center;min-width:140px;"><img src="https://carsley.com/media/3wenrz1g/carsley_rgb.svg" alt="Carsley Solutions" style="max-width:125px;max-height:64px;width:auto;height:auto;"/></span>
+      </div>
+  - link: https://www.tinybird.co/
+    type: Community Supporter
+    name: |
+      <div style="display:flex;justify-content:center;align-items:center;margin:8px 0 12px 0;">
+        <span style="display:inline-flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;min-width:135px;"><img src="https://www.google.com/s2/favicons?domain=tinybird.co&sz=128" alt="Tinybird" width="64" height="64" style="width:64px;height:64px;object-fit:contain;"/><strong style="font-size:0.92rem;text-align:center;line-height:1.15;">Tinybird</strong></span>
       </div>
   - link: https://dayofdata.org/2026-09-12-dayofdata1164/#sponsorship
     type: Community Partner
