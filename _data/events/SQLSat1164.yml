@@ -156,17 +156,17 @@ sponsors:
   - link: https://dayofdata.org/2026-09-12-dayofdata1164/#sponsorship
     type: Community Supporter
     name: |
-      <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:flex-start;gap:38px;margin:8px 0 12px 0;">
-        <span style="display:inline-flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:6px;min-width:145px;"><img src="https://www.google.com/s2/favicons?domain=buschs.com&sz=128" alt="Busch's Fresh Food Market" width="64" height="64" style="width:64px;height:64px;object-fit:contain;"/><strong style="font-size:0.88rem;text-align:center;line-height:1.15;max-width:145px;">Busch's Fresh Food Market</strong></span>
-        <span style="display:inline-flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:6px;min-width:145px;"><img src="https://www.google.com/s2/favicons?domain=chick-fil-a.com&sz=128" alt="Chick-fil-A Ann Arbor" width="64" height="64" style="width:64px;height:64px;object-fit:contain;"/><strong style="font-size:0.88rem;text-align:center;line-height:1.15;max-width:145px;">Chick-fil-A Ann Arbor</strong></span>
-        <span style="display:inline-flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:6px;min-width:145px;"><img src="https://www.google.com/s2/favicons?domain=dominos.com&sz=128" alt="Domino's Ann Arbor" width="64" height="64" style="width:64px;height:64px;object-fit:contain;"/><strong style="font-size:0.88rem;text-align:center;line-height:1.15;max-width:145px;">Domino's Ann Arbor</strong></span>
+      <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:38px;margin:8px 0 12px 0;">
+        <span style="display:inline-flex;align-items:center;justify-content:center;min-width:110px;"><img src="https://www.google.com/s2/favicons?domain=buschs.com&sz=128" alt="Busch's Fresh Food Market" width="64" height="64" style="width:64px;height:64px;object-fit:contain;"/></span>
+        <span style="display:inline-flex;align-items:center;justify-content:center;min-width:110px;"><img src="https://www.google.com/s2/favicons?domain=chick-fil-a.com&sz=128" alt="Chick-fil-A Ann Arbor" width="64" height="64" style="width:64px;height:64px;object-fit:contain;"/></span>
+        <span style="display:inline-flex;align-items:center;justify-content:center;min-width:110px;"><img src="https://www.google.com/s2/favicons?domain=dominos.com&sz=128" alt="Domino's Ann Arbor" width="64" height="64" style="width:64px;height:64px;object-fit:contain;"/></span>
       </div>
   - link: https://dayofdata.org/2026-09-12-dayofdata1164/#sponsorship
     type: In-Kind Supporter
     name: |
-      <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:flex-start;gap:30px;margin:6px 0 10px 0;">
+      <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:30px;margin:6px 0 10px 0;">
         <span style="display:inline-flex;align-items:center;justify-content:center;min-width:160px;"><img src="https://www.evergreenorientalinc.com/images/evergreen_logo2.jpg" alt="Evergreen Restaurant" style="max-width:145px;max-height:68px;width:auto;height:auto;object-fit:contain;"/></span>
-        <span style="display:inline-flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:6px;min-width:120px;"><img src="https://www.google.com/s2/favicons?domain=tinybird.co&sz=128" alt="Tinybird" width="52" height="52" style="width:52px;height:52px;object-fit:contain;"/><strong style="font-size:0.82rem;text-align:center;line-height:1.15;max-width:120px;">Tinybird</strong></span>
+        <span style="display:inline-flex;align-items:center;justify-content:center;min-width:100px;"><img src="https://www.google.com/s2/favicons?domain=tinybird.co&sz=128" alt="Tinybird" width="52" height="52" style="width:52px;height:52px;object-fit:contain;"/></span>
       </div>
 
 sponsorplan: |
