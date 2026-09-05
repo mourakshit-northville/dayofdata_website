@@ -41,7 +41,7 @@ scheduletimezone: Central Summer Time UTC -5
 schedulehtml: |
   <p style="text-align: center;"><strong>The schedule and sessions are subject to change.</strong></p>
   <p>The schedule shown below is updated by Sessionize to match your computer's time zone setting.</p>
-  <iframe frameborder="0" style="width: 100%; height: 1900px;" srcdoc="<BODY><script type='text/javascript' src='https://sessionize.com/api/v2/zv3getw2/view/GridSmart'></script></BODY>"></iframe>
+  <script type="text/javascript" src="https://sessionize.com/api/v2/zv3getw2/view/GridSmart"></script>
 
 eventcountdown: false
 
