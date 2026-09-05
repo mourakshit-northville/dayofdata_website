@@ -47,8 +47,10 @@ eventcountdown: false
 
 countdownscript:
  
-speakertext:
-speakerlisturl: https://sessionize.com/api/v2/zv3getw2/view/SpeakerWall
+speakertext: |
+  <p style="text-align: center;"><strong>Meet the Day of Data Winnipeg 2026 speakers.</strong></p>
+  <iframe frameborder="0" style="width: 100%; min-height: 600px;" srcdoc="<body><script type='text/javascript' src='https://sessionize.com/api/v2/zv3getw2/view/SpeakerWall'></script></body>"></iframe>
+speakerlisturl:
 callforspeakersurl: https://sessionize.com/day-of-data-winnipeg-2026/
 callforspeakers:  true
 callforspeakersenddate: 23 Aug 2026
@@ -86,7 +88,12 @@ sponsors:
     image: /assets/event/1159/Wawanesa-Insurance.png
     width: 220
     alt: Wawanesa Insurance
-
+  - type: Facility Sponsor
+    name: University of Manitoba
+    link: https://www.umanitoba.ca/
+    image: /assets/event/1159/University-of-Manitoba.jpg
+    width: 320
+    alt: University of Manitoba
 sponsorplan: |
   <p><a href="/assets/event/1159/Day_of_Data_Winnipeg_2026_Sponsorship_Proposal.png" target="_blank" rel="noopener noreferrer"><img src="/assets/event/1159/Day_of_Data_Winnipeg_2026_Sponsorship_Proposal.png" alt="Day of Data Winnipeg 2026 Sponsorship Proposal" style="max-width:100%; height:auto;"></a></p>
   <p><a href="/assets/event/1159/Day_of_Data_Winnipeg_2026_Sponsorship.pdf" target="_blank" rel="noopener noreferrer">View or download the Day of Data Winnipeg 2026 Sponsorship Proposal (PDF)</a></p>
