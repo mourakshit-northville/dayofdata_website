@@ -24,7 +24,7 @@ registrationurl: https://www.eventbrite.ca/e/day-of-data-toronto-2026-tickets-19
 capacity: 320
 googlemapurl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.198833313092!2d-79.38011808741268!3d43.644031370982006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb2c801e024f%3A0xcf88d63daeded0b8!2s81%20Bay%20St.%2C%20Toronto%2C%20ON%20M5J%201E6%2C%20Canada!5e0!3m2!1sen!2sus!4v1718634794902!5m2!1sen!2sus"
 
-scheduleurl: 
+scheduleurl: https://sessionize.com/api/v2/ntw38ije/view/GridSmart
 scheduletimezone: Eastern Daylight Savings time UTC -5
 
 eventcountdown: true
@@ -65,6 +65,21 @@ sponsors:
     image: /assets/img/logos/Centrilogic.png
     width: 980
     height: 511
+  - link: https://www.improving.com/
+    type: Platinum Sponsor
+    image: /assets/img/logos/Improving_Logo_platinum.png
+    width: 1200
+    height: 521
+  - link: https://www.kyndryl.com/us/en
+    type: Platinum Sponsor
+    image: /assets/img/logos/kyndryl.png
+    width: 947
+    height: 387
+  - link: https://www.dbwatch.com/
+    type: Silver Sponsor
+    image: /assets/img/logos/silver/dbwatch_silver.png
+    width: 563
+    height: 127
   - link: https://www.pythian.com/
     type: Bronze Sponsor
     image: /assets/img/logos/bronze/pythian_logo_bronze.png
