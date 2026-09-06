@@ -49,7 +49,7 @@ countdownscript: |
     <script src="https://cdn.logwork.com/widget/countdown.js"></script><a href="https://logwork.com/countdown-71sb" class="countdown-timer" data-timezone="America/New_York" data-date="2026-10-17 08:00">Countdown</a>
  
 speakertext: 
-speakerlisturl: https://sessionize.com/api/v2/0lk9zs7i/view/SpeakerWall
+speakerlisturl: https://sessionize.com/api/v2/0lk9zs7i/view/Speakers
 callforspeakersurl: https://sessionize.com/day-of-data-orlando-2026/ 
 callforspeakers: true
 callforspeakersenddate: 2026-08-10
@@ -81,15 +81,14 @@ sponsors:
   - link: https://sqlgrease.com/
     image: /assets/img/logos/sqlgrease.png    
   - link: https://www.travelandleisure.com/
-    image: /assets/img/logos/travel-and-leisure-856x484.jpg    
+    image: /assets/img/logos/travel-and-leisure-856x484.jpg
+  - link:  https://www.oreilly.com
+    type: In-Kind
+    image: /assets/img/logos/OReilly_Logo.png
   - link: https://devitjobs.com/
     type: Community Partner
     image: /assets/img/logos/devitus-rectangle-white.png
     width: 180
-  - link: http://oreilly.com/
-    type: Community Partner
-    image: /assets/img/logos/vik/oreilly.png
-    width: 180       
     
 sponsorplan:
     <h1><a name="sponsorship">Sponsorship Plan</a></h1>
