@@ -98,6 +98,11 @@ sponsors:
     image: /assets/img/logos/silver/ludia.png
     width: 288
     height: 105
+  - link: http://www.postgresql.org/
+    type: Silver Sponsor
+    image: /assets/img/logos/silver/postgres.png
+    width: 288
+    height: 105
 
 sponsorplan:
     <h1><a name="sponsorship">Sponsorship Plan</a></h1>
