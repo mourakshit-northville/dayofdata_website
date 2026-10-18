@@ -61,7 +61,7 @@ countdownscript: |
     <script src="https://cdn.logwork.com/widget/countdown.js"></script><a href="https://logwork.com/countdown-timer" class="countdown-timer" data-style="circles" data-timezone="America/Chicago" data-textcolor="#19d1c5" data-date="2026-10-24 08:00" data-background="#16f242" data-digitscolor="#2b10de" data-unitscolor="#e64e12">Event Countdown</a>
  
 speakertext: The Call for speakers is open through July 1, 2026. Please contact us if you want to help St Louis Professional community grow and speak at another event.
-speakerlisturl: 
+speakerlisturl: https://sessionize.com/api/v2/jdij9yi4/view/SpeakerWall
 submittedsessionurl: 
 callforspeakersurl: https://sessionize.com/st-louis-day-of-data/
 callforspeakers:  true
