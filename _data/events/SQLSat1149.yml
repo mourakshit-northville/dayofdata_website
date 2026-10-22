@@ -90,7 +90,7 @@ sponsors:
     height: 150
   - link: https://www.profocustechnology.com/
     type: Silver Sponsor
-    image: /assets/img/logos/silver/profocus.png
+    image: /assets/img/logos/silver/ProFocus.png
     width: 200
     height: 57
   - link: https://www.ludiaconsulting.com/
@@ -100,7 +100,7 @@ sponsors:
     height: 105
   - link: http://www.postgresql.org/
     type: Silver Sponsor
-    image: /assets/img/logos/silver/postgres.png
+    image: /assets/img/logos/silver/Postgres.png
     width: 288
     height: 105
 
