@@ -23,13 +23,14 @@ These are the Day of Data events that are currently scheduled. If you would like
         </tr>
       </thead>
       <tbody>
-  {% assign TodayDate = site.time | date: '%s' | plus: 86400 | date: '%Y-%m-d' %}
+ {% assign TodayDate = site.time | date: '%s'  %}
+  {% assign nextday = TodayDate | minus: 86400 | date: '%s' %}
   {% assign future = 0 %}
   {% for post in site.posts reversed %}
-    {% assign EventDate = post.date | date: '%Y-%m-%d'  %}
+    {% assign EventDate = post.date | date: '%s' %}
     {% if post.testevent != 1 %}
-      {% if EventDate > TodayDate %}
-        {% assign future = 1 %}
+      {% if EventDate > nextday %}
+         {% assign future = 1 %}
         <tr>
           <td><img src="/assets/img/logos/Just_icon_Color_small.png"></td>
           <td><a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
