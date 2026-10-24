@@ -23,10 +23,10 @@ These are the Day of Data events that are currently scheduled. If you would like
         </tr>
       </thead>
       <tbody>
-  {% assign TodayDate = site.time | date: '%s' %}
+  {% assign TodayDate = site.time | date: '%s' | plus: 86400 | date: '%s' %}
   {% assign future = 0 %}
   {% for post in site.posts reversed %}
-    {% assign EventDate = post.date | date: '%s' | plus: 86400 | date: '%Y-%m-%d' %}
+    {% assign EventDate = post.date | date: '%s'  %}
     {% if post.testevent != 1 %}
       {% if EventDate > TodayDate %}
         {% assign future = 1 %}
