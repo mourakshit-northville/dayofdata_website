@@ -23,10 +23,10 @@ These are the Day of Data events that are currently scheduled. If you would like
         </tr>
       </thead>
       <tbody>
-  {% assign TodayDate = site.time | date: '%s' | plus: 86400 | date: '%s' %}
+  {% assign TodayDate = site.time | date: '%s' | plus: 86400 | date: '%Y-%m-d' %}
   {% assign future = 0 %}
   {% for post in site.posts reversed %}
-    {% assign EventDate = post.date | date: '%s'  %}
+    {% assign EventDate = post.date | date: '%Y-%m-%d'  %}
     {% if post.testevent != 1 %}
       {% if EventDate > TodayDate %}
         {% assign future = 1 %}
@@ -57,12 +57,13 @@ These are the Day of Data events that are currently scheduled. If you would like
 ## <a name="reserved"></a>Reserved Dates
 
 The following dates are tentative for these cities, but they have asked to reserve the date.
-- Mar 6, 2027 - Atlanta
-- Mar 13, 2027 - Atlanta (alternate)
+- Mar 13, 2027 - Atlanta
 
 Please contact the local organizers for these areas if you have questions or concerns.
 
 You can see completed events on the [Past Events](past) page.
+
+<!-- Today's date is {{ TodayDate }} -->
 
 ## <a name="other"></a>Other Events
 
