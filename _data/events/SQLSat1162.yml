@@ -1,4 +1,4 @@
-name: "Houston Day of Data 2026 (#1162)" 
+name: "Houston Day of Data and AI 2026 (#1162)" 
 primarytag: "Houston"
 logo: 
 logocredit: 
@@ -31,7 +31,7 @@ precondetail: |
 registrationurl: https://www.eventbrite.com/e/day-of-data-and-ai-houston-tickets-1992652825241?aff=oddtdtcreator
 capacity: 
 googlemapurl: 
-scheduleurl: 
+scheduleurl: https://sessionize.com/api/v2/m99lhrzd/view/GridSmart
 scheduletimezone: Central Standard time GMT -6
 
 eventcountdown: false
