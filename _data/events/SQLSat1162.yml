@@ -65,6 +65,11 @@ social:
 sponsorscontacturl: 
 optInGlobalSponsor: 1
 sponsors:
+  - link: https://www.quest.com/
+    type: Silver Sponsor
+    image: /assets/img/logos/silver/quest_silver.jpg
+    width: 980
+    height: 511
 
 join:
 
