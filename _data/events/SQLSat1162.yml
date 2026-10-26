@@ -7,9 +7,9 @@ virtual: false
 physical: true
 hybrid: false
 description: |
-    <p>Houston Day of Data is a one-day community-based technical conference for anyone working in data-driven industries.</p>
+    <p>Houston Day of Data and AI is a one-day community-based technical conference for anyone working in data-driven industries.</p>
     <p>Topics include relational, such as SQL Server, as well as non-relational databases, administration, analytics, machine learning & AI, and much more!</p>
-    <p>Day of Data Houston has sessions that range from student and beginner up through advanced and expert-level. This is an opportunity to learn from industry experts while meeting others who are passionate about data. Solve ongoing challenges while improving the scalabity, security, and availability of your applications!</p>
+    <p>Houston Day of Data and AI has sessions that range from student and beginner up through advanced and expert-level. This is an opportunity to learn from industry experts while meeting others who are passionate about data. Solve ongoing challenges while improving the scalabity, security, and availability of your applications!</p>
 
 officialwebsite: 
 eventlocation: |
