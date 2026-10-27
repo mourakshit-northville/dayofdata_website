@@ -25,3 +25,9 @@ This file is the durable operating log for the MouRakshit.com site agent.
 - Documented photos with unverified event context as Unsorted uploads, not as Day of Data Detroit. High-resolution replacement headshot is pending from Mou.
 - Unified permanent photo-upload folder: `personal-portfolio-site/assets/gallery/uploads/`.
 - Publication and builds verified through GitHub PR merge status and Vercel READY state; browser-based visual inspection was not available for protected Vercel preview. No claim of completed manual photo sharpness validation.
+
+## 2026-10-27 — Homepage slideshow navigation repair
+- Audited current Writing (23 direct article links), Speaking (five recordings), Gallery (32 uploaded photographs plus curated event photos), public Databricks Community profile, Sessionize and public search results. No new independently verified publication or recording since the October 27 content release was identified; LinkedIn private engagement metrics were not used.
+- Found a homepage slideshow control bug: Previous and Next buttons are outside `#photo-rotator`, but the JavaScript queried for them inside it. Corrected selectors in `portfolio-gallery.js` only; no photographs, event labels, or publication claims changed.
+- Review: GitHub PR #31 (https://github.com/mourakshit-northville/dayofdata_website/pull/31). Vercel preview at https://mou-rakshit-d3wu255cl-mourakshit-7637s-projects.vercel.app/ reached READY; homepage, JavaScript, CSS, Writing, Speaking, Gallery and sample original photos returned HTTP 200. Verified both controls and corrected selectors in served preview HTML/JS. Automated browser click and mobile visual tests were unavailable; production to be checked after merge.
+- MVP Library artifacts v18 Databricks and v12 Microsoft were accessible but unchanged because no new evidence warranted a revision.
