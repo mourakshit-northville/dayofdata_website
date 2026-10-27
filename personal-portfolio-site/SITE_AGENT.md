@@ -82,3 +82,12 @@ The site is a personal-brand site for an enterprise Data + AI architect, speaker
 - Repository: mourakshit-northville/dayofdata_website
 - Site source: personal-portfolio-site/
 - Hosting: Vercel via the repository main branch
+
+## October 2026 content portfolio architecture
+- Homepage `index.html`: latest featured articles, confirmed events, speaking-photo rotator.
+- `writing.html`: curated direct-link article library. Update this when Databricks Community, LinkedIn or Medium articles are published. Include FabCon Barcelona coverage.
+- `speaking.html`: public recording links (direct recordings when available) and dated event evidence. Keep upcoming separate from delivered.
+- `gallery.html` and `portfolio-gallery.js`: one-folder photo upload workflow and event gallery; do not embed base64 images or distort aspect ratios.
+- **One image upload folder:** `personal-portfolio-site/assets/gallery/uploads/`. New images may be uploaded here in bulk with no per-event folders; optional filename format `YYYY-MM-DD__event-name__caption.jpg` groups images.
+- Maintain direct source URLs. No links to generic LinkedIn article-list pages when an exact article permalink exists.
+- Use GitHub PRs, Vercel preview validation, and site-agent-log entries before merging. Do not silently overwrite unrelated community websites.
