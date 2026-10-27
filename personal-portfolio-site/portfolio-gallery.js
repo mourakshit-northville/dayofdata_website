@@ -225,15 +225,25 @@
   }
   function initGallery(items){
     const list=document.getElementById("photo-grid"),selector=document.getElementById("photo-group");if(!list)return;
+    if(selector)selector.replaceChildren();
     const groupsList=["All events",...new Set(items.map(i=>i.group))];
     if(selector){groupsList.forEach(g=>{const o=document.createElement("option");o.textContent=g;o.value=g;selector.appendChild(o);});}
     function render(){const v=selector?.value||"All events";list.replaceChildren();items.filter(i=>v==="All events"||i.group===v).forEach((it)=>{const fig=document.createElement("figure");fig.appendChild(addImage(it.src,it.caption));const cap=document.createElement("figcaption");cap.textContent=it.group+" · "+it.caption;fig.appendChild(cap);list.appendChild(fig);});}
-    selector?.addEventListener("change",render);render();
+    if(selector)selector.onchange=render;render();
   }
-  Promise.resolve(newPhotos()).then(uploaded=>{
-    const seen=new Set(),all=[...curated,...verifiedUploads,...uploaded].filter(p=>{if(seen.has(p.src))return false;seen.add(p.src);return true;});
-    initRotator(all.filter(p=>!/session-card/.test(p.src)));
-    initGallery(all);
-    const n=document.querySelector("[data-added-count]");if(n)n.textContent=uploaded.length?verifiedUploads.length+" new portfolio photos, plus "+curated.length+" earlier event images.":"Additional photographs will appear as they are uploaded.";
+  // Render immediately from the verified manifest, even when GitHub's API is slow or rate-limited.
+  const initial=[...curated,...verifiedUploads];
+  initRotator(initial.filter(p=>!/session-card/.test(p.src)));
+  initGallery(initial);
+  const count=document.querySelector("[data-added-count]");
+  if(count)count.textContent=verifiedUploads.length+" newly uploaded photos and "+curated.length+" earlier event images.";
+  // Enrich the gallery when newer commits appear in the single upload folder.
+  newPhotos().then(discovered=>{
+    const existing=new Set(initial.map(x=>x.src));
+    const extras=discovered.filter(x=>!existing.has(x.src));
+    if(extras.length){
+      initGallery([...initial,...extras]);
+      if(count)count.textContent=verifiedUploads.length+extras.length+" newly uploaded photos and "+curated.length+" earlier event images.";
+    }
   });
 })();
