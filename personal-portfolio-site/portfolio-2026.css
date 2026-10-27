@@ -70,3 +70,10 @@
 .brand2026 .slideshow-stage img {width:100%!important;height:100%!important;max-height:none!important;object-fit:contain!important}
 .evidence-card[hidden]{display:none!important}
 .speaker-slideshow .slideshow-stage button{background:rgba(10,26,24,.82);color:#fff;border:1px solid #a0aea7;font:inherit;cursor:pointer;padding:7px 15px}
+
+/* Photo fidelity: avoid enlarging low-resolution originals or distorting aspect ratios. */
+.brand2026 #photo-rotator {display:flex!important;align-items:center!important;justify-content:center!important}
+.brand2026 #photo-rotator>img {display:block!important;width:auto!important;height:auto!important;max-width:100%!important;max-height:100%!important;object-fit:contain!important;object-position:center!important;flex:0 1 auto!important}
+.photo-grid figure {display:flex;flex-direction:column;justify-content:center;align-items:center}
+.photo-grid img {display:block;width:auto;max-width:100%;height:auto;max-height:255px;object-fit:contain;object-position:center}
+.photo-grid figcaption {align-self:stretch}
