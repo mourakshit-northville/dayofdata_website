@@ -17,3 +17,11 @@ This file is the durable operating log for the MouRakshit.com site agent.
 - Rebuilt the Databricks MVP packet from the latest v10 source as v11, preserving the existing packet and appending the new SAP-to-Databricks evidence; refreshed Day of Data Detroit status only where supported by post-event evidence.
 - Rebuilt the Microsoft MVP nomination packet from the latest FINAL_ORDERED source and updated the matching evidence workbook with the new September writing plus current Michigan community metrics.
 - Production validation: both websites returned HTTP 200 and contained both new article titles.
+
+## 2026-10-27 — Article, recording, and multi-event photo gallery release
+- Published a curated 2026 writing archive (23 source-linked technical articles) and speaking archive (five public recordings and dated event evidence) via PR #27. Production build READY.
+- Verified 32 user-uploaded photographs across three GitHub upload batches on the dedicated `portfolio-photo-uploads-oct2026` branch. Merged the photographs into `main` via PR #29. Includes photo evidence across Day of Data, Atlanta, Houston, Richmond, Women in Data, Databricks, Microsoft Fabric and other uploads.
+- Published the multi-event public gallery, event filters, and homepage slideshow via PR #28. Preserved originals with `object-fit:contain` and avoided upscaling beyond native image dimensions. Production build READY at commit `3f75bf8ccf2eb4a07973ecddfcedd10a0bee88a2`.
+- Documented photos with unverified event context as Unsorted uploads, not as Day of Data Detroit. High-resolution replacement headshot is pending from Mou.
+- Unified permanent photo-upload folder: `personal-portfolio-site/assets/gallery/uploads/`.
+- Publication and builds verified through GitHub PR merge status and Vercel READY state; browser-based visual inspection was not available for protected Vercel preview. No claim of completed manual photo sharpness validation.
