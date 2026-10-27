@@ -209,7 +209,7 @@
   }
   function initRotator(items){
     const host=document.getElementById("photo-rotator");if(!host||!items.length)return;
-    const image=host.querySelector("img"),caption=host.querySelector("[data-caption]"),counter=document.getElementById("photo-count"),prev=host.querySelector("[data-prev]"),next=host.querySelector("[data-next]"),pause=host.querySelector("[data-pause]");
+    const image=host.querySelector("img"),caption=host.querySelector("[data-caption]"),counter=document.getElementById("photo-count"),prev=document.querySelector(".slideshow-controls [data-prev]"),next=document.querySelector(".slideshow-controls [data-next]"),pause=host.querySelector("[data-pause]");
     const slides=items.filter(x=>/\.(png|jpe?g|jfif|webp|gif)$/i.test(x.src) && x.group!=="Unsorted uploads").slice(0,65);let ix=0;let playing=!window.matchMedia("(prefers-reduced-motion: reduce)").matches;let timer;
     function draw(){const it=slides[ix];if(!it)return;image.src=it.src;image.alt=it.caption;caption.textContent=it.caption;counter.textContent=(ix+1)+" of "+slides.length;}
     function advance(n){ix=(ix+n+slides.length)%slides.length;draw();}
