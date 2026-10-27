@@ -20,8 +20,14 @@
   const label=s=>s.replace(/[-_]+/g," ").replace(/\b\w/g,c=>c.toUpperCase()).trim();
   const groups={"southfield-genie":"Southfield Genie meetup","day-of-data-detroit":"Day of Data Detroit","fabcon-2025":"FabCon 2025","mitechcon":"MITechCon"};
   function parseName(name){
-    const p=name.replace(/\.(jpe?g|png|webp|gif)$/i,"").split("__");
-    const group=p.length>1?(groups[p[1].toLowerCase()]||label(p[1])):"New uploads";
+    const p=name.replace(/\.(jpe?g|jfif|png|webp|gif)$/i,"").split("__");
+    const base=p[0].toLowerCase();
+    const inferred=/^dayofdatadetroit/.test(base)?"Day of Data Detroit"
+      :/^dayofdata/.test(base)?"Day of Data — event to verify"
+      :/^atlanta/.test(base)?"Atlanta — event to verify"
+      :/^(databricks|dbx)/.test(base)?"Databricks — event to verify"
+      :"New uploads";
+    const group=p.length>1?(groups[p[1].toLowerCase()]||label(p[1])):inferred;
     const caption=p.length>2?label(p.slice(2).join(" ")):label(p[0].replace(/^\d{4}-\d{2}-\d{2}/,""));
     return {group,caption:caption||"Speaking & community photo"};
   }
@@ -31,7 +37,7 @@
       if(!res.ok)throw new Error("GitHub listing unavailable");
       const entries=await res.json();
       if(!Array.isArray(entries))return [];
-      return entries.filter(f=>f.type==="file"&&/\.(jpe?g|png|webp|gif)$/i.test(f.name)).slice(0,450).map(f=>({...parseName(f.name),src:root+encodeURIComponent(f.name)}));
+      return entries.filter(f=>f.type==="file"&&/\.(jpe?g|jfif|png|webp|gif)$/i.test(f.name)).slice(0,450).map(f=>({...parseName(f.name),src:root+encodeURIComponent(f.name)}));
     }catch(e){return [];}
   }
   function addImage(src,alt,loading){
