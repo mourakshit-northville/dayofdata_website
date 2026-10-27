@@ -62,3 +62,11 @@
 @media(max-width:720px){.site-topbar-inner{align-items:flex-start;flex-direction:column;padding:16px 0;gap:12px}.site-links{gap:13px}.site-main{padding:42px 18px 70px}.evidence-grid,.video-grid{grid-template-columns:1fr}.event-list li{grid-template-columns:1fr;gap:2px}.photo-grid{grid-template-columns:1fr 1fr}.photo-grid img{height:190px}.speaker-slideshow .slideshow-heading{display:block}.speaker-slideshow .slideshow-heading>a{display:inline-block;margin-top:10px}.slideshow-stage{height:310px}}
 @media(max-width:460px){.photo-grid{grid-template-columns:1fr}.photo-grid img{height:285px}}
 @media(prefers-reduced-motion:reduce){.evidence-card{transition:none}}
+
+/* Never stretch original speaker or audience photography. */
+.brand2026 .community-gallery figure {background:#edf1ed}
+.brand2026 .community-gallery img,.brand2026 .featured-talk-media img {object-fit:contain!important;object-position:center!important;height:auto!important;max-height:420px!important;image-orientation:from-image}
+.brand2026 .hero-portrait img {object-fit:contain!important;object-position:center!important;image-orientation:from-image}
+.brand2026 .slideshow-stage img {width:100%!important;height:100%!important;max-height:none!important;object-fit:contain!important}
+.evidence-card[hidden]{display:none!important}
+.speaker-slideshow .slideshow-stage button{background:rgba(10,26,24,.82);color:#fff;border:1px solid #a0aea7;font:inherit;cursor:pointer;padding:7px 15px}
