@@ -82,3 +82,11 @@ The site is a personal-brand site for an enterprise Data + AI architect, speaker
 - Repository: mourakshit-northville/dayofdata_website
 - Site source: personal-portfolio-site/
 - Hosting: Vercel via the repository main branch
+
+## 2026-10-27 portfolio content contract
+- The personal portfolio source is `personal-portfolio-site/`, independent from the Day of Data event website located elsewhere in the repository. Do not label the personal portfolio's entire gallery as Day of Data Detroit.
+- Main writing page: `writing.html`. Main recorded sessions page: `speaking.html`. Public photo gallery: `gallery.html`; home slideshow: `portfolio-gallery.js` included from `index.html`.
+- User uploads ALL conference / user-group / speaking images to just ONE directory: `personal-portfolio-site/assets/gallery/uploads/`. Preserve original images and group them only by confirmed event evidence; unlabeled `IMG_*` images remain under Unsorted uploads.
+- When new user photo batches are merged into `main`, update `verifiedUploads` in `portfolio-gallery.js` with their filenames and event categories so the gallery works without GitHub API access. Auto-discovery through GitHub public API is fallback only.
+- The original current profile picture must not be replaced until Mou supplies a replacement. Avoid artificial event imagery and do not over-enlarge blurry thumbnails.
+- Keep newly published LinkedIn and Databricks Community articles, FabCon Barcelona insights, recordings and dates current by direct permalinks, with periodic substantive changes documented in site-agent-log.md.
