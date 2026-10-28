@@ -213,14 +213,54 @@
     "Day of Data Detroit":"2026-09-12",
     "FabCon 2025":"2025-03-31"
   };
-  function newestFirst(items){
-    return items.map((item,order)=>({...item,eventDate:item.eventDate||dateByEvent[item.group]||null,originalOrder:order}))
-      .sort((a,b)=>{
-        if(a.eventDate&&b.eventDate)return b.eventDate.localeCompare(a.eventDate)||a.originalOrder-b.originalOrder;
-        if(a.eventDate)return -1;
-        if(b.eventDate)return 1;
-        return a.originalOrder-b.originalOrder;
-      });
+  // Curated visual-first order: large conference/teaching audiences first, then
+  // presentations to smaller rooms and finally attendee/group photographs.
+  // Filenames are internal identifiers only; they never appear on the website.
+  // This order was reviewed against the original accessible photos, not upload dates.
+  const audienceFirstPaths=[
+    "/assets/fabcon-2025-stage.webp",
+    "/assets/gallery/uploads/womenindata2.jfif",
+    "/assets/gallery/uploads/womenindata4.jfif",
+    "/assets/gallery/uploads/womenindata3.jfif",
+    "/assets/gallery/uploads/dayofdata.jpg",
+    "/assets/gallery/uploads/dayofdatadetroit1.jfif",
+    "/assets/gallery/uploads/dayofdatadetroit3.jfif",
+    "/assets/day-of-data-detroit-2026-audience-clear.webp",
+    "/assets/gallery/uploads/dayofdatadetroit6.jfif",
+    "/assets/gallery/uploads/womenindata1.jfif",
+    "/assets/gallery/uploads/dayofdatadetroit4.jfif",
+    "/assets/gallery/uploads/dayofdatadetroit5.jfif",
+    "/assets/events/2026-10-21-southfield-genie/southfield-genie-8378.webp",
+    "/assets/day-of-data-detroit-2026-databricks-genie-clear.webp",
+    "/assets/gallery/uploads/dayofdatadetroit2.jfif",
+    "/assets/day-of-data-detroit-2026-community-group-clear.webp",
+    "/assets/events/2026-10-21-southfield-genie/southfield-genie-8383.webp",
+    "/assets/events/2026-10-21-southfield-genie/southfield-genie-8377.webp",
+    "/assets/events/2026-10-21-southfield-genie/southfield-genie-8372.webp",
+    "/assets/events/2026-10-21-southfield-genie/southfield-genie-8373.webp",
+    "/assets/events/2026-10-21-southfield-genie/southfield-genie-8387.webp",
+    "/assets/day-of-data-detroit-2026-speaker-clear.webp",
+    "/assets/gallery/uploads/houston3.jfif",
+    "/assets/gallery/uploads/houston2.jfif",
+    "/assets/gallery/uploads/houston4.jfif",
+    "/assets/gallery/uploads/houston1.jfif",
+    "/assets/gallery/uploads/databricks1.jfif",
+    "/assets/gallery/uploads/dbx2.jfif",
+    "/assets/gallery/uploads/atlanta.jfif",
+    "/assets/gallery/uploads/dbx4.jfif",
+    "/assets/gallery/uploads/richmond.jfif"
+  ];
+  const priorityIndex=new Map(audienceFirstPaths.map((src,index)=>[src,index]));
+  function audienceFirst(items){
+    return items.map((item,order)=>({
+      ...item,
+      eventDate:item.eventDate||dateByEvent[item.group]||null,
+      originalOrder:order
+    })).sort((a,b)=>{
+      const pa=priorityIndex.has(a.src)?priorityIndex.get(a.src):Number.MAX_SAFE_INTEGER;
+      const pb=priorityIndex.has(b.src)?priorityIndex.get(b.src):Number.MAX_SAFE_INTEGER;
+      return pa-pb||a.originalOrder-b.originalOrder;
+    });
   }
   function monthYear(date){
     if(!date)return "";
@@ -295,7 +335,7 @@
     if(selector)selector.onchange=render;render();
   }
   // Render immediately from the verified manifest, even when GitHub's API is slow or rate-limited.
-  const initial=newestFirst([...curated,...verifiedUploads]);
+  const initial=audienceFirst([...curated,...verifiedUploads]);
   initRotator(initial.filter(p=>!/session-card/.test(p.src)));
   initGallery(initial);
   const count=document.querySelector("[data-added-count]");
