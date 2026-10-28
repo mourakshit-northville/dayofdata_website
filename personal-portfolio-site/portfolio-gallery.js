@@ -218,8 +218,40 @@
     const list=document.getElementById("photo-grid"),selector=document.getElementById("photo-group");if(!list)return;
     if(selector)selector.replaceChildren();
     const groupsList=["All events",...new Set(items.map(i=>i.group))];
-    if(selector){groupsList.forEach(g=>{const o=document.createElement("option");o.textContent=g;o.value=g;selector.appendChild(o);});}
-    function render(){const v=selector?.value||"All events";list.replaceChildren();items.filter(i=>v==="All events"||i.group===v).forEach((it)=>{const fig=document.createElement("figure");fig.appendChild(addImage(it.src,it.caption));const cap=document.createElement("figcaption");cap.textContent=it.group+" · "+it.caption;fig.appendChild(cap);list.appendChild(fig);});}
+    if(selector)groupsList.forEach(g=>{const o=document.createElement("option");o.textContent=g;o.value=g;selector.appendChild(o);});
+    // A click opens an actual slideshow instead of leaving a static gallery tile.
+    const viewer=document.createElement("dialog");
+    viewer.className="gallery-lightbox";
+    viewer.setAttribute("aria-label","Conference photo slideshow");
+    viewer.innerHTML='<div class="gallery-viewer"><button type="button" class="gallery-close" aria-label="Close slideshow">Close ×</button><figure><img alt=""><figcaption aria-live="polite"></figcaption></figure><div class="gallery-viewer-controls"><button type="button" data-back>← Previous</button><span class="gallery-viewer-count"></span><button type="button" data-forward>Next →</button><button type="button" data-toggle aria-pressed="false">Pause</button></div></div>';
+    document.body.appendChild(viewer);
+    const picture=viewer.querySelector("img"),label=viewer.querySelector("figcaption"),counter=viewer.querySelector(".gallery-viewer-count");
+    let visible=[],index=0,timer=null,playing=true;
+    function stop(){if(timer!==null){clearInterval(timer);timer=null;}}
+    function draw(){const it=visible[index];if(!it)return;picture.src=it.src;picture.alt=it.caption;label.textContent=it.group+" · "+it.caption;counter.textContent=(index+1)+" of "+visible.length;}
+    function advance(delta){if(!visible.length)return;index=(index+delta+visible.length)%visible.length;draw();}
+    function start(){stop();if(playing&&viewer.open&&visible.length>1)timer=setInterval(()=>{if(!document.hidden)advance(1);},5200);}
+    function openPhoto(i){index=i;playing=!window.matchMedia("(prefers-reduced-motion: reduce)").matches;viewer.querySelector("[data-toggle]").textContent=playing?"Pause":"Play";viewer.querySelector("[data-toggle]").setAttribute("aria-pressed",String(!playing));draw();viewer.showModal();start();}
+    viewer.querySelector(".gallery-close").addEventListener("click",()=>viewer.close());
+    viewer.querySelector("[data-back]").addEventListener("click",()=>{advance(-1);start();});
+    viewer.querySelector("[data-forward]").addEventListener("click",()=>{advance(1);start();});
+    viewer.querySelector("[data-toggle]").addEventListener("click",ev=>{playing=!playing;ev.currentTarget.textContent=playing?"Pause":"Play";ev.currentTarget.setAttribute("aria-pressed",String(!playing));start();});
+    viewer.addEventListener("close",stop);
+    viewer.addEventListener("click",ev=>{if(ev.target===viewer)viewer.close();});
+    viewer.addEventListener("keydown",ev=>{if(ev.key==="ArrowRight"||ev.key==="ArrowLeft"){ev.preventDefault();advance(ev.key==="ArrowRight"?1:-1);start();}});
+    document.addEventListener("visibilitychange",()=>{if(document.hidden)stop();else if(viewer.open)start();});
+    function render(){
+      const selected=selector?.value||"All events";
+      visible=items.filter(i=>selected==="All events"||i.group===selected);
+      list.replaceChildren();
+      visible.forEach((it,i)=>{
+        const fig=document.createElement("figure"),btn=document.createElement("button");
+        btn.className="gallery-photo-open";btn.type="button";btn.setAttribute("aria-label","View "+it.caption+" in slideshow");btn.appendChild(addImage(it.src,it.caption));
+        btn.addEventListener("click",()=>openPhoto(i));
+        const cap=document.createElement("figcaption");cap.textContent=it.group+" · "+it.caption;
+        fig.appendChild(btn);fig.appendChild(cap);list.appendChild(fig);
+      });
+    }
     if(selector)selector.onchange=render;render();
   }
   // Render immediately from the verified manifest, even when GitHub's API is slow or rate-limited.
