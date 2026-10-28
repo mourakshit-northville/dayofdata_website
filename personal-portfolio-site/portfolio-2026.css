@@ -77,3 +77,19 @@
 .photo-grid figure {display:flex;flex-direction:column;justify-content:center;align-items:center}
 .photo-grid img {display:block;width:auto;max-width:100%;height:auto;max-height:255px;object-fit:contain;object-position:center}
 .photo-grid figcaption {align-self:stretch}
+
+/* Interactive full-screen event slideshow on gallery image click. */
+.gallery-photo-open{display:flex;align-items:center;justify-content:center;width:100%;background:#f0f3f0;border:0;padding:0;margin:0;cursor:zoom-in}
+.gallery-photo-open img{max-width:100%;height:auto;max-height:255px;object-fit:contain;image-orientation:from-image}
+.gallery-photo-open:focus-visible{outline:3px solid #287968;outline-offset:-3px}
+.gallery-lightbox{border:0;border-radius:10px;padding:0;background:#111b1a;color:#fff;max-width:min(1100px,96vw);width:96vw;max-height:96vh;overflow:auto;box-shadow:0 18px 80px rgba(0,0,0,.45)}
+.gallery-lightbox::backdrop{background:rgba(3,8,7,.87)}
+.gallery-viewer{padding:18px 18px 22px;position:relative}
+.gallery-viewer .gallery-close{display:block;margin:0 0 10px auto}
+.gallery-viewer figure{margin:0;display:flex;flex-direction:column;align-items:center}
+.gallery-viewer figure img{display:block;width:auto;height:auto;max-width:100%;max-height:min(69vh,700px);object-fit:contain;image-orientation:from-image}
+.gallery-viewer figure figcaption{font-size:14px;color:#e0e8e4;text-align:center;margin:14px 0 5px}
+.gallery-viewer-controls{display:flex;gap:10px;justify-content:center;align-items:center;flex-wrap:wrap;margin-top:14px}
+.gallery-viewer-controls button,.gallery-viewer .gallery-close{border:1px solid #889c94;color:#fff;background:transparent;padding:9px 14px;border-radius:6px;cursor:pointer;font:inherit}
+.gallery-viewer-controls button:hover,.gallery-viewer .gallery-close:hover{background:#345149}
+.gallery-viewer-count{min-width:80px;text-align:center;color:#cbd8d3;font-size:13px}
