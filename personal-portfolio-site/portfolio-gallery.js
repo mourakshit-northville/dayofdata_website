@@ -2,7 +2,7 @@
 (() => {
   "use strict";
   const root="/assets/gallery/uploads/";
-  const endpoint="https://api.github.com/repos/mourakshit-northville/dayofdata_website/contents/personal-portfolio-site/assets/gallery/uploads?ref=main";
+  // Only curated, approved photos are displayed; new uploads require review before public display.
   // Verified in GitHub's 32-photo upload branch and merged into production main.
   // This manifest avoids depending on unauthenticated GitHub API requests.
   const verifiedUploads=[
@@ -141,11 +141,7 @@
       "group": "Richmond",
       "caption": "richmond"
     },
-    {
-      "src": "/assets/gallery/uploads/three_sisters.jpg",
-      "group": "Unsorted uploads",
-      "caption": "Event photo to identify · three sisters"
-    },
+
     {
       "src": "/assets/gallery/uploads/womenindata1.jfif",
       "group": "Women in Data",
@@ -195,15 +191,6 @@
     const caption=p.length>2?label(p.slice(2).join(" ")):label(p[0].replace(/^\d{4}-\d{2}-\d{2}/,""));
     return {group,caption:caption||"Speaking & community photo"};
   }
-  async function newPhotos(){
-    try{
-      const res=await fetch(endpoint,{headers:{"Accept":"application/vnd.github+json"}});
-      if(!res.ok)throw new Error("GitHub listing unavailable");
-      const entries=await res.json();
-      if(!Array.isArray(entries))return [];
-      return entries.filter(f=>f.type==="file"&&/\.(jpe?g|jfif|png|webp|gif)$/i.test(f.name)).slice(0,450).map(f=>({...parseName(f.name),src:root+encodeURIComponent(f.name)}));
-    }catch(e){return [];}
-  }
   function addImage(src,alt,loading){
     const img=document.createElement("img");img.src=src;img.alt=alt;img.loading=loading||"lazy";img.decoding="async";img.onerror=()=>{img.closest("figure")?.remove();};return img;
   }
@@ -217,8 +204,12 @@
     function start(){stop();if(playing&&slides.length>1)timer=setInterval(()=>{if(!document.hidden)advance(1);},5200);}
     prev?.addEventListener("click",()=>{advance(-1);start();});next?.addEventListener("click",()=>{advance(1);start();});
     pause?.addEventListener("click",()=>{playing=!playing;pause.textContent=playing?"Pause":"Play";pause.setAttribute("aria-pressed",String(!playing));start();});
-    host.addEventListener("mouseenter",stop);host.addEventListener("mouseleave",start);
-    host.addEventListener("focusin",stop);host.addEventListener("focusout",start);
+    // Keep playing while the cursor is over the photo; hovering previously froze the carousel.
+    host.style.cursor="pointer";
+    host.setAttribute("tabindex","0");
+    host.setAttribute("aria-label","Speaking and audience photo slideshow. Click the picture to advance, or use left and right arrow keys.");
+    host.addEventListener("click",ev=>{if(ev.target.closest("button"))return;advance(1);start();});
+    host.addEventListener("keydown",ev=>{if(ev.target!==host)return;if(ev.key==="ArrowRight"||ev.key==="ArrowLeft"){ev.preventDefault();advance(ev.key==="ArrowRight"?1:-1);start();}});
     document.addEventListener("visibilitychange",()=>{if(document.hidden)stop();else start();});
     if(pause){pause.textContent=playing?"Pause":"Play";pause.setAttribute("aria-pressed",String(!playing));}
     draw();start();
@@ -236,14 +227,6 @@
   initRotator(initial.filter(p=>!/session-card/.test(p.src)));
   initGallery(initial);
   const count=document.querySelector("[data-added-count]");
-  if(count)count.textContent=verifiedUploads.length+" newly uploaded photos and "+curated.length+" earlier event images.";
-  // Enrich the gallery when newer commits appear in the single upload folder.
-  newPhotos().then(discovered=>{
-    const existing=new Set(initial.map(x=>x.src));
-    const extras=discovered.filter(x=>!existing.has(x.src));
-    if(extras.length){
-      initGallery([...initial,...extras]);
-      if(count)count.textContent=verifiedUploads.length+extras.length+" newly uploaded photos and "+curated.length+" earlier event images.";
-    }
-  });
+  if(count)count.textContent=verifiedUploads.length+" approved uploaded photos and "+curated.length+" earlier event images.";
+
 })();
