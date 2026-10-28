@@ -228,7 +228,7 @@
     return new Date(Date.UTC(y,m-1,1)).toLocaleDateString("en-US",{timeZone:"UTC",month:"short",year:"numeric"});
   }
   function displayCaption(item){
-    if(item.uploaded)return item.group+(item.eventDate?" · "+monthYear(item.eventDate):" · Date not verified");
+    if(item.uploaded)return item.group+(item.eventDate?" · "+monthYear(item.eventDate):"");
     return item.caption;
   }
   function addImage(src,alt,loading){
