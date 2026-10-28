@@ -8,159 +8,189 @@
   const verifiedUploads=[
     {
       "src": "/assets/gallery/uploads/IMG_5100.jpg",
-      "group": "Unsorted uploads",
-      "caption": "Event photo to identify · IMG 5100"
+      "group": "Other conference and community events",
+      "caption": "Conference and community photograph",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/IMG_5120.jpg",
-      "group": "Unsorted uploads",
-      "caption": "Event photo to identify · IMG 5120"
+      "group": "Other conference and community events",
+      "caption": "Conference and community photograph",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/IMG_5252.jpg",
-      "group": "Unsorted uploads",
-      "caption": "Event photo to identify · IMG 5252"
+      "group": "Other conference and community events",
+      "caption": "Conference and community photograph",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/IMG_5286.jpg",
-      "group": "Unsorted uploads",
-      "caption": "Event photo to identify · IMG 5286"
+      "group": "Other conference and community events",
+      "caption": "Conference and community photograph",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/IMG_5289.jpg",
-      "group": "Unsorted uploads",
-      "caption": "Event photo to identify · IMG 5289"
+      "group": "Other conference and community events",
+      "caption": "Conference and community photograph",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/IMG_5357.jpg",
-      "group": "Unsorted uploads",
-      "caption": "Event photo to identify · IMG 5357"
+      "group": "Other conference and community events",
+      "caption": "Conference and community photograph",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/IMG_5359.jpg",
-      "group": "Unsorted uploads",
-      "caption": "Event photo to identify · IMG 5359"
+      "group": "Other conference and community events",
+      "caption": "Conference and community photograph",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/IMG_5416.jpg",
-      "group": "Unsorted uploads",
-      "caption": "Event photo to identify · IMG 5416"
+      "group": "Other conference and community events",
+      "caption": "Conference and community photograph",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/IMG_5472.jpg",
-      "group": "Unsorted uploads",
-      "caption": "Event photo to identify · IMG 5472"
+      "group": "Other conference and community events",
+      "caption": "Conference and community photograph",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/IMG_5475.jpg",
-      "group": "Unsorted uploads",
-      "caption": "Event photo to identify · IMG 5475"
+      "group": "Other conference and community events",
+      "caption": "Conference and community photograph",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/atlanta.jfif",
       "group": "Atlanta",
-      "caption": "atlanta"
+      "caption": "Photo from Atlanta",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/databricks1.jfif",
       "group": "Databricks events",
-      "caption": "databricks1"
+      "caption": "Photo from Databricks events",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/dayofdata.jpg",
       "group": "Day of Data — event to confirm",
-      "caption": "dayofdata"
+      "caption": "Photo from Day of Data — event to confirm",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/dayofdatadetroit1.jfif",
       "group": "Day of Data Detroit",
-      "caption": "dayofdatadetroit1"
+      "caption": "Photo from Day of Data Detroit",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/dayofdatadetroit2.jfif",
       "group": "Day of Data Detroit",
-      "caption": "dayofdatadetroit2"
+      "caption": "Photo from Day of Data Detroit",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/dayofdatadetroit3.jfif",
       "group": "Day of Data Detroit",
-      "caption": "dayofdatadetroit3"
+      "caption": "Photo from Day of Data Detroit",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/dayofdatadetroit4.jfif",
       "group": "Day of Data Detroit",
-      "caption": "dayofdatadetroit4"
+      "caption": "Photo from Day of Data Detroit",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/dayofdatadetroit5.jfif",
       "group": "Day of Data Detroit",
-      "caption": "dayofdatadetroit5"
+      "caption": "Photo from Day of Data Detroit",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/dayofdatadetroit6.jfif",
       "group": "Day of Data Detroit",
-      "caption": "dayofdatadetroit6"
+      "caption": "Photo from Day of Data Detroit",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/dbx2.jfif",
       "group": "Databricks events",
-      "caption": "dbx2"
+      "caption": "Photo from Databricks events",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/dbx4.jfif",
       "group": "Databricks events",
-      "caption": "dbx4"
+      "caption": "Photo from Databricks events",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/fabric.jpg",
       "group": "Microsoft Fabric",
-      "caption": "fabric"
+      "caption": "Photo from Microsoft Fabric",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/houston1.jfif",
       "group": "Houston",
-      "caption": "houston1"
+      "caption": "Photo from Houston",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/houston2.jfif",
       "group": "Houston",
-      "caption": "houston2"
+      "caption": "Photo from Houston",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/houston3.jfif",
       "group": "Houston",
-      "caption": "houston3"
+      "caption": "Photo from Houston",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/houston4.jfif",
       "group": "Houston",
-      "caption": "houston4"
+      "caption": "Photo from Houston",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/richmond.jfif",
       "group": "Richmond",
-      "caption": "richmond"
+      "caption": "Photo from Richmond",
+      "uploaded": true
     },
-
     {
       "src": "/assets/gallery/uploads/womenindata1.jfif",
       "group": "Women in Data",
-      "caption": "womenindata1"
+      "caption": "Photo from Women in Data",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/womenindata2.jfif",
       "group": "Women in Data",
-      "caption": "womenindata2"
+      "caption": "Photo from Women in Data",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/womenindata3.jfif",
       "group": "Women in Data",
-      "caption": "womenindata3"
+      "caption": "Photo from Women in Data",
+      "uploaded": true
     },
     {
       "src": "/assets/gallery/uploads/womenindata4.jfif",
       "group": "Women in Data",
-      "caption": "womenindata4"
+      "caption": "Photo from Women in Data",
+      "uploaded": true
     }
   ];
   const curated=[
@@ -177,19 +207,29 @@
     {src:"/assets/fabcon-2025-stage.webp",group:"FabCon 2025",caption:"Speaking at Microsoft Fabric Community Conference 2025"},
     {src:"/assets/fabcon-2025-session-card.webp",group:"FabCon 2025",caption:"FabCon 2025 session evidence"}
   ];
-  const label=s=>s.replace(/[-_]+/g," ").replace(/\b\w/g,c=>c.toUpperCase()).trim();
-  const groups={"southfield-genie":"Southfield Genie meetup","day-of-data-detroit":"Day of Data Detroit","fabcon-2025":"FabCon 2025","mitechcon":"MITechCon"};
-  function parseName(name){
-    const p=name.replace(/\.(jpe?g|jfif|png|webp|gif)$/i,"").split("__");
-    const base=p[0].toLowerCase();
-    const inferred=/^dayofdatadetroit/.test(base)?"Day of Data Detroit"
-      :/^dayofdata/.test(base)?"Day of Data — event to verify"
-      :/^atlanta/.test(base)?"Atlanta — event to verify"
-      :/^(databricks|dbx)/.test(base)?"Databricks — event to verify"
-      :"New uploads";
-    const group=p.length>1?(groups[p[1].toLowerCase()]||label(p[1])):inferred;
-    const caption=p.length>2?label(p.slice(2).join(" ")):label(p[0].replace(/^\d{4}-\d{2}-\d{2}/,""));
-    return {group,caption:caption||"Speaking & community photo"};
+  // Only known event dates are used for chronology. An event date is not an EXIF capture date.
+  const dateByEvent={
+    "Southfield Genie meetup":"2026-10-21",
+    "Day of Data Detroit":"2026-09-12",
+    "FabCon 2025":"2025-03-31"
+  };
+  function newestFirst(items){
+    return items.map((item,order)=>({...item,eventDate:item.eventDate||dateByEvent[item.group]||null,originalOrder:order}))
+      .sort((a,b)=>{
+        if(a.eventDate&&b.eventDate)return b.eventDate.localeCompare(a.eventDate)||a.originalOrder-b.originalOrder;
+        if(a.eventDate)return -1;
+        if(b.eventDate)return 1;
+        return a.originalOrder-b.originalOrder;
+      });
+  }
+  function monthYear(date){
+    if(!date)return "";
+    const [y,m]=date.split("-").map(Number);
+    return new Date(Date.UTC(y,m-1,1)).toLocaleDateString("en-US",{timeZone:"UTC",month:"short",year:"numeric"});
+  }
+  function displayCaption(item){
+    if(item.uploaded)return item.group+(item.eventDate?" · "+monthYear(item.eventDate):" · Date not verified");
+    return item.caption;
   }
   function addImage(src,alt,loading){
     const img=document.createElement("img");img.src=src;img.alt=alt;img.loading=loading||"lazy";img.decoding="async";img.onerror=()=>{img.closest("figure")?.remove();};return img;
@@ -197,8 +237,8 @@
   function initRotator(items){
     const host=document.getElementById("photo-rotator");if(!host||!items.length)return;
     const image=host.querySelector("img"),caption=host.querySelector("[data-caption]"),counter=document.getElementById("photo-count"),prev=document.querySelector(".slideshow-controls [data-prev]"),next=document.querySelector(".slideshow-controls [data-next]"),pause=host.querySelector("[data-pause]");
-    const slides=items.filter(x=>/\.(png|jpe?g|jfif|webp|gif)$/i.test(x.src) && x.group!=="Unsorted uploads").slice(0,65);let ix=0;let playing=!window.matchMedia("(prefers-reduced-motion: reduce)").matches;let timer;
-    function draw(){const it=slides[ix];if(!it)return;image.src=it.src;image.alt=it.caption;caption.textContent=it.caption;counter.textContent=(ix+1)+" of "+slides.length;}
+    const slides=items.filter(x=>/\.(png|jpe?g|jfif|webp|gif)$/i.test(x.src)).slice(0,65);let ix=0;let playing=!window.matchMedia("(prefers-reduced-motion: reduce)").matches;let timer;
+    function draw(){const it=slides[ix];if(!it)return;image.src=it.src;image.alt=it.caption;caption.textContent=displayCaption(it);counter.textContent=(ix+1)+" of "+slides.length;}
     function advance(n){ix=(ix+n+slides.length)%slides.length;draw();}
     function stop(){if(timer)clearInterval(timer);timer=undefined;}
     function start(){stop();if(playing&&slides.length>1)timer=setInterval(()=>{if(!document.hidden)advance(1);},5200);}
@@ -228,7 +268,7 @@
     const picture=viewer.querySelector("img"),label=viewer.querySelector("figcaption"),counter=viewer.querySelector(".gallery-viewer-count");
     let visible=[],index=0,timer=null,playing=true;
     function stop(){if(timer!==null){clearInterval(timer);timer=null;}}
-    function draw(){const it=visible[index];if(!it)return;picture.src=it.src;picture.alt=it.caption;label.textContent=it.group+" · "+it.caption;counter.textContent=(index+1)+" of "+visible.length;}
+    function draw(){const it=visible[index];if(!it)return;picture.src=it.src;picture.alt=it.caption;label.textContent=displayCaption(it);counter.textContent=(index+1)+" of "+visible.length;}
     function advance(delta){if(!visible.length)return;index=(index+delta+visible.length)%visible.length;draw();}
     function start(){stop();if(playing&&viewer.open&&visible.length>1)timer=setInterval(()=>{if(!document.hidden)advance(1);},5200);}
     function openPhoto(i){index=i;playing=!window.matchMedia("(prefers-reduced-motion: reduce)").matches;viewer.querySelector("[data-toggle]").textContent=playing?"Pause":"Play";viewer.querySelector("[data-toggle]").setAttribute("aria-pressed",String(!playing));draw();viewer.showModal();start();}
@@ -248,14 +288,14 @@
         const fig=document.createElement("figure"),btn=document.createElement("button");
         btn.className="gallery-photo-open";btn.type="button";btn.setAttribute("aria-label","View "+it.caption+" in slideshow");btn.appendChild(addImage(it.src,it.caption));
         btn.addEventListener("click",()=>openPhoto(i));
-        const cap=document.createElement("figcaption");cap.textContent=it.group+" · "+it.caption;
+        const cap=document.createElement("figcaption");cap.textContent=displayCaption(it);
         fig.appendChild(btn);fig.appendChild(cap);list.appendChild(fig);
       });
     }
     if(selector)selector.onchange=render;render();
   }
   // Render immediately from the verified manifest, even when GitHub's API is slow or rate-limited.
-  const initial=[...curated,...verifiedUploads];
+  const initial=newestFirst([...curated,...verifiedUploads]);
   initRotator(initial.filter(p=>!/session-card/.test(p.src)));
   initGallery(initial);
   const count=document.querySelector("[data-added-count]");
