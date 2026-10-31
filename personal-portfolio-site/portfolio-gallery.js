@@ -194,6 +194,15 @@
     }
   ];
   const curated=[
+    {src:"/assets/events/2026-10-30-mitechcon-oakland/mitechcon-group-photo.webp",group:"MITechCon 2026 · Oakland University",caption:"MITechCon attendee photograph at Oakland University · October 30, 2026"},
+    {src:"/assets/events/2026-10-30-mitechcon-oakland/mitechcon-genie-demo.webp",group:"MITechCon 2026 · Oakland University",caption:"Demonstrating Databricks Genie during a MITechCon technical session · October 30, 2026"},
+    {src:"/assets/events/2026-10-30-mitechcon-oakland/mitechcon-discussion.webp",group:"MITechCon 2026 · Oakland University",caption:"Presenting Genie insights during MITechCon · October 30, 2026"},
+    {src:"/assets/events/2026-10-30-mitechcon-oakland/mitechcon-speaking-podium.webp",group:"MITechCon 2026 · Oakland University",caption:"Speaking at the Oakland University lectern during MITechCon · October 30, 2026"},
+    {src:"/assets/events/2026-10-30-mitechcon-oakland/mitechcon-session-stage.webp",group:"MITechCon 2026 · Oakland University",caption:"MITechCon presentation on Microsoft Fabric and real-time intelligence · October 30, 2026"},
+    {src:"/assets/events/2026-10-30-mitechcon-oakland/mitechcon-conference-backdrop.webp",group:"MITechCon 2026 · Oakland University",caption:"Photograph at the MITechCon conference photo wall · October 30, 2026"},
+    {src:"/assets/events/2026-10-30-mitechcon-oakland/mitechcon-conference-portrait.webp",group:"MITechCon 2026 · Oakland University",caption:"MITechCon speaker portrait · October 30, 2026"},
+    {src:"/assets/events/2026-10-30-mitechcon-oakland/mitechcon-podium-demo.webp",group:"MITechCon 2026 · Oakland University",caption:"At the podium during MITechCon · October 30, 2026"},
+    {src:"/assets/events/2026-10-30-mitechcon-oakland/mitechcon-platform-architecture.webp",group:"MITechCon 2026 · Oakland University",caption:"Discussing an enterprise data platform diagram at MITechCon · October 30, 2026"},
     {src:"/assets/events/2026-10-21-southfield-genie/southfield-genie-8372.webp",group:"Southfield Genie meetup",caption:"Genie Agent live demonstration · Southfield, October 2026"},
     {src:"/assets/events/2026-10-21-southfield-genie/southfield-genie-8387.webp",group:"Southfield Genie meetup",caption:"Discussing Genie Agents with attendees · Southfield"},
     {src:"/assets/events/2026-10-21-southfield-genie/southfield-genie-8378.webp",group:"Southfield Genie meetup",caption:"Audience following the Southfield technical session"},
@@ -209,6 +218,7 @@
   ];
   // Only known event dates are used for chronology. An event date is not an EXIF capture date.
   const dateByEvent={
+    "MITechCon 2026 · Oakland University":"2026-10-30",
     "Southfield Genie meetup":"2026-10-21",
     "Day of Data Detroit":"2026-09-12",
     "FabCon 2025":"2025-03-31"
@@ -234,6 +244,15 @@
     "/assets/day-of-data-detroit-2026-databricks-genie-clear.webp",
     "/assets/gallery/uploads/dayofdatadetroit2.jfif",
     "/assets/day-of-data-detroit-2026-community-group-clear.webp",
+    "/assets/events/2026-10-30-mitechcon-oakland/mitechcon-group-photo.webp",
+    "/assets/events/2026-10-30-mitechcon-oakland/mitechcon-genie-demo.webp",
+    "/assets/events/2026-10-30-mitechcon-oakland/mitechcon-discussion.webp",
+    "/assets/events/2026-10-30-mitechcon-oakland/mitechcon-speaking-podium.webp",
+    "/assets/events/2026-10-30-mitechcon-oakland/mitechcon-session-stage.webp",
+    "/assets/events/2026-10-30-mitechcon-oakland/mitechcon-conference-backdrop.webp",
+    "/assets/events/2026-10-30-mitechcon-oakland/mitechcon-conference-portrait.webp",
+    "/assets/events/2026-10-30-mitechcon-oakland/mitechcon-podium-demo.webp",
+    "/assets/events/2026-10-30-mitechcon-oakland/mitechcon-platform-architecture.webp",
     "/assets/events/2026-10-21-southfield-genie/southfield-genie-8383.webp",
     "/assets/events/2026-10-21-southfield-genie/southfield-genie-8377.webp",
     "/assets/events/2026-10-21-southfield-genie/southfield-genie-8372.webp",
