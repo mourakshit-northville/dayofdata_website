@@ -74,3 +74,9 @@ This file is the durable operating log for the MouRakshit.com site agent.
 - Organizer schedule and speaker profile confirm “Who Is the Agent Allowed to Be? Securing Data and AI Agents in Microsoft Fabric,” Fabric February, Oslo, February 4, 2027 at 14:00 local time, Sal 6: https://www.fabricfebruary.com/schedule/ and https://fabricfebruary.com/speakers/ .
 - Added direct organizer links and exact titles to the Speaking page and homepage; both entries are explicitly scheduled, not delivered. No other article, photograph, historical claim, client detail, LinkedIn metric or certification changed.
 - Repo branch: `portfolio-2026-11-04-verified-upcoming-speaking`. PR, Vercel preview checks, merge and production verification are to be confirmed separately; neither preview nor publication is assumed in this entry. The existing Microsoft v12 and Databricks v18 Library evidence files are handled separately, without creating duplicates.
+
+## 2026-11-06 — Data Days DP-800 certification-prep recording
+- Verified the November 5 Data Days DP-800 agenda at https://luma.com/s52zv0wt : Mou Rakshit presented Session 1, “Database Design, Advanced T-SQL and JSON,” scheduled 7:00–7:45 AM ET, for the Microsoft Certified: SQL AI Developer Associate exam across SQL Server, Azure SQL and SQL Database in Fabric.
+- Added the user-supplied full-event replay https://www.youtube.com/live/0OeRyornMy8 as the newest recording on the Speaking page, including a clearly labeled 1,700+ event registration figure (not a viewer count) and noting this is the full-event replay rather than a session-only cut.
+- The same recording is being added separately to MichiganDataAI.org as an external event featuring Mou as guest presenter, without claiming that the Michigan community organized it.
+- Validated the GitHub branch HTML retains existing recordings and the new URL is present. PR merge, Vercel deploy and production checks are performed separately; not assumed in this entry.
