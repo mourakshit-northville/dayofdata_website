@@ -80,3 +80,9 @@ This file is the durable operating log for the MouRakshit.com site agent.
 - Added the user-supplied full-event replay https://www.youtube.com/live/0OeRyornMy8 as the newest recording on the Speaking page, including a clearly labeled 1,700+ event registration figure (not a viewer count) and noting this is the full-event replay rather than a session-only cut.
 - The same recording is being added separately to MichiganDataAI.org as an external event featuring Mou as guest presenter, without claiming that the Michigan community organized it.
 - Validated the GitHub branch HTML retains existing recordings and the new URL is present. PR merge, Vercel deploy and production checks are performed separately; not assumed in this entry.
+
+## 2026-11-06 — Restore December 2025 Fabric Data Days recording
+- Reconciled Microsoft MVP activity C02 dated December 6, 2025 with the original Data Tech Florida Meetup agenda (https://www.meetup.com/data-tech-florida/events/311698712/). The agenda lists Lucrecia Krause first and Mou Rakshit second; Mou's session is “Real-Time Intelligence: Turning Streaming Data into Smart Decisions.”
+- Identified the previously documented YouTube event recording https://www.youtube.com/watch?v=RNlBZ1XLg0w. Added it to the personal Speaking & recordings page in chronological sequence as a multi-speaker full-event replay, not a standalone segment; preserved existing 2026 and 2024 recordings.
+- Corrected the existing entry in MichiganDataAI.org recordings from generic November 2025 to December 6, 2025 with exact session title, speaker attribution and organizer. No duplicate video entry is added. No claim that Michigan Data & AI Community organized the event.
+- GitHub edits validated on branch; PR, deployment and production checks are handled separately.
