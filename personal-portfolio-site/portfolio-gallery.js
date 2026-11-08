@@ -6,6 +6,8 @@
   // Verified in GitHub's 32-photo upload branch and merged into production main.
   // This manifest avoids depending on unauthenticated GitHub API requests.
   const verifiedUploads=[
+    {"src": "/assets/gallery/uploads/trine-2026-11-07-classroom.jpeg", "group": "Trine University \u00b7 November 7, 2026", "caption": "Group case-study activities during the Data Mining and Data Visualization class \u00b7 Trine University, November 7, 2026", "uploaded": true},
+    {"src": "/assets/gallery/uploads/trine-2026-11-07-group.jpeg", "group": "Trine University \u00b7 November 7, 2026", "caption": "Mou Rakshit with students after the in-person class \u00b7 Trine University, November 7, 2026", "uploaded": true},
     {
       "src": "/assets/gallery/uploads/IMG_5100.jpg",
       "group": "Other conference and community events",
@@ -218,6 +220,7 @@
   ];
   // Only known event dates are used for chronology. An event date is not an EXIF capture date.
   const dateByEvent={
+    "Trine University · November 7, 2026":"2026-11-07",
     "MITechCon 2026 · Oakland University":"2026-10-30",
     "Southfield Genie meetup":"2026-10-21",
     "Day of Data Detroit":"2026-09-12",
