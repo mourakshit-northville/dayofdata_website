@@ -106,3 +106,9 @@ This file is the durable operating log for the MouRakshit.com site agent.
 - Added two original photographs supplied and approved for publication by Mou, from the November 7 Data Mining and Data Visualization in-person class at Trine University Detroit Education Center.
 - Stored byte-identical JPEG originals in the established uploads folder and registered both in the gallery manifest with a dedicated Trine event filter and confirmed event date. Existing audience-first ordering is preserved.
 - Verified both JPEGs decode, retain their original 2048 × 1536 dimensions, and match the uploaded file hashes. Gallery and lightbox retain contain/natural-ratio rendering. Deployment verification is recorded in the task outcome.
+
+
+## 2026-11-08 — Microsoft MCAPS training photograph
+- Added user-supplied MCAPS_Training_2025.jpg as a byte-identical original under assets/gallery/uploads and registered it in the approved gallery manifest.
+- Caption follows the visible workshop title and supplied year; no exact date, location, or presenter role inferred. Preserved existing gallery order and natural image proportions.
+- Verified JPEG decoding and original 1536 × 2048 dimensions. Deployment verified separately in task outcome.
