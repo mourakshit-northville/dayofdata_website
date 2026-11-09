@@ -6,6 +6,7 @@
   // Verified in GitHub's 32-photo upload branch and merged into production main.
   // This manifest avoids depending on unauthenticated GitHub API requests.
   const verifiedUploads=[
+    {"src": "/assets/gallery/uploads/mcaps-training-2025.jpg", "group": "Microsoft MCAPS Training \u00b7 2025", "caption": "Mou Rakshit at the Unlocking Data Management and AI Workshop \u00b7 Microsoft MCAPS Training, 2025", "uploaded": true},
     {"src": "/assets/gallery/uploads/trine-2026-11-07-classroom.jpeg", "group": "Trine University \u00b7 November 7, 2026", "caption": "Group case-study activities during the Data Mining and Data Visualization class \u00b7 Trine University, November 7, 2026", "uploaded": true},
     {"src": "/assets/gallery/uploads/trine-2026-11-07-group.jpeg", "group": "Trine University \u00b7 November 7, 2026", "caption": "Mou Rakshit with students after the in-person class \u00b7 Trine University, November 7, 2026", "uploaded": true},
     {
