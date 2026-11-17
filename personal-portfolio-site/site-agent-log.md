@@ -112,3 +112,11 @@ This file is the durable operating log for the MouRakshit.com site agent.
 - Added user-supplied MCAPS_Training_2025.jpg as a byte-identical original under assets/gallery/uploads and registered it in the approved gallery manifest.
 - Caption follows the visible workshop title and supplied year; no exact date, location, or presenter role inferred. Preserved existing gallery order and natural image proportions.
 - Verified JPEG decoding and original 1536 × 2048 dimensions. Deployment verified separately in task outcome.
+
+
+
+## 2026-11-17 — Enterprise Search & Discovery conference recap and photographs
+- Mou confirmed completing her November 17 session at the JW Marriott in Washington, DC. Official session: https://www.enterprisesearchanddiscovery.com/2026/program.aspx#18102 . Updated existing homepage and Speaking entries from scheduled to delivered, with Jonathan Thill of EBSCO as co-presenter. No attendance total claimed.
+- Added the six selected original conference photographs in this order: IMG_8566.jpeg, IMG_8561.jpeg, IMG_8564.jpeg, IMG_8571.jpeg, IMG_8574.jpeg, and the speaker badge (saved as enterprise-search-discovery-2026-speaker-badge.jpg). All image bytes, dimensions and natural proportions are preserved.
+- Registered the new event group in verifiedUploads, added a direct event-filter link, and added a concise recap with the organizer session link. Existing unrelated event images and audience-first ordering are preserved.
+- Local verification: all six original JPEGs decode; copied bytes match originals; JavaScript syntax, new manifest order, event filter, six image paths and original dimensions checked. Preview/PR and production validation are recorded in this task’s final outcome.

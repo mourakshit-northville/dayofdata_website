@@ -6,6 +6,13 @@
   // Verified in GitHub's 32-photo upload branch and merged into production main.
   // This manifest avoids depending on unauthenticated GitHub API requests.
   const verifiedUploads=[
+    {"src": "/assets/gallery/uploads/IMG_8566.jpeg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "Mou Rakshit presenting at Enterprise Search & Discovery 2026 · November 17, 2026", "uploaded": true, "showCaption": true},
+    {"src": "/assets/gallery/uploads/IMG_8561.jpeg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "Conversational Search, Governed Data Discovery, and Quality Research · November 17, 2026", "uploaded": true, "showCaption": true},
+    {"src": "/assets/gallery/uploads/IMG_8564.jpeg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "Working through an example of evidence-backed answers · November 17, 2026", "uploaded": true, "showCaption": true},
+    {"src": "/assets/gallery/uploads/IMG_8571.jpeg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "Mou Rakshit and Jonathan Thill during the shared session · November 17, 2026", "uploaded": true, "showCaption": true},
+    {"src": "/assets/gallery/uploads/IMG_8574.jpeg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "After the session at Enterprise Search & Discovery 2026 · November 17, 2026", "uploaded": true, "showCaption": true},
+    {"src": "/assets/gallery/uploads/enterprise-search-discovery-2026-speaker-badge.jpg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "Mou Rakshit’s Enterprise Search & Discovery 2026 speaker badge · November 17, 2026", "uploaded": true, "showCaption": true},
+
     {"src": "/assets/gallery/uploads/mcaps-training-2025.jpg", "group": "Microsoft MCAPS Training \u00b7 2025", "caption": "Mou Rakshit at the Unlocking Data Management and AI Workshop \u00b7 Microsoft MCAPS Training, 2025", "uploaded": true},
     {"src": "/assets/gallery/uploads/trine-2026-11-07-classroom.jpeg", "group": "Trine University \u00b7 November 7, 2026", "caption": "Group case-study activities during the Data Mining and Data Visualization class \u00b7 Trine University, November 7, 2026", "uploaded": true},
     {"src": "/assets/gallery/uploads/trine-2026-11-07-group.jpeg", "group": "Trine University \u00b7 November 7, 2026", "caption": "Mou Rakshit with students after the in-person class \u00b7 Trine University, November 7, 2026", "uploaded": true},
@@ -221,6 +228,7 @@
   ];
   // Only known event dates are used for chronology. An event date is not an EXIF capture date.
   const dateByEvent={
+    "Enterprise Search & Discovery 2026 \u00b7 Washington, DC":"2026-11-17",
     "Trine University · November 7, 2026":"2026-11-07",
     "MITechCon 2026 · Oakland University":"2026-10-30",
     "Southfield Genie meetup":"2026-10-21",
@@ -291,6 +299,7 @@
     return new Date(Date.UTC(y,m-1,1)).toLocaleDateString("en-US",{timeZone:"UTC",month:"short",year:"numeric"});
   }
   function displayCaption(item){
+    if(item.showCaption)return item.caption;
     if(item.uploaded)return item.group+(item.eventDate?" · "+monthYear(item.eventDate):"");
     return item.caption;
   }
@@ -355,6 +364,7 @@
         fig.appendChild(btn);fig.appendChild(cap);list.appendChild(fig);
       });
     }
+    if(selector&&new URLSearchParams(window.location.search).get("event")==="enterprise-search-discovery-2026")selector.value="Enterprise Search & Discovery 2026 · Washington, DC";
     if(selector)selector.onchange=render;render();
   }
   // Render immediately from the verified manifest, even when GitHub's API is slow or rate-limited.
