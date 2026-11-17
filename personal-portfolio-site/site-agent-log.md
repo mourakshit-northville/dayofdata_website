@@ -117,6 +117,6 @@ This file is the durable operating log for the MouRakshit.com site agent.
 
 ## 2026-11-17 — Enterprise Search & Discovery conference recap and photographs
 - Mou confirmed completing her November 17 session at the JW Marriott in Washington, DC. Official session: https://www.enterprisesearchanddiscovery.com/2026/program.aspx#18102 . Updated existing homepage and Speaking entries from scheduled to delivered, with Jonathan Thill of EBSCO as co-presenter. No attendance total claimed.
-- Added the six selected original conference photographs in this order: IMG_8566.jpeg, IMG_8561.jpeg, IMG_8564.jpeg, IMG_8571.jpeg, IMG_8574.jpeg, and the speaker badge (saved as enterprise-search-discovery-2026-speaker-badge.jfif). All image bytes, dimensions and natural proportions are preserved.
+- Added the six selected original conference photographs in this order: IMG_8566.jpeg, IMG_8561.jpeg, IMG_8564.jpeg, IMG_8571.jpeg, IMG_8574.jpeg, and the speaker badge (saved as enterprise-search-discovery-2026-speaker-badge.jpg). All image bytes, dimensions and natural proportions are preserved.
 - Registered the new event group in verifiedUploads, added a direct event-filter link, and added a concise recap with the organizer session link. Existing unrelated event images and audience-first ordering are preserved.
 - Local verification: all six original JPEGs decode; copied bytes match originals; JavaScript syntax, new manifest order, event filter, six image paths and original dimensions checked. Preview/PR and production validation are recorded in this task’s final outcome.
