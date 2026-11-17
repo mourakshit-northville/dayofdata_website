@@ -18,6 +18,8 @@
     {"src": "/assets/gallery/uploads/IMG_8571.jpeg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "Mou Rakshit and Jonathan Thill during the shared session · November 17, 2026", "uploaded": true, "showCaption": true},
     {"src": "/assets/gallery/uploads/IMG_8573.jpeg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "Conference presentation at Enterprise Search & Discovery 2026 · November 17, 2026", "uploaded": true, "showCaption": true},
     {"src": "/assets/gallery/uploads/IMG_8574.jpeg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "After the session at Enterprise Search & Discovery 2026 · November 17, 2026", "uploaded": true, "showCaption": true},
+    {"src": "/assets/gallery/uploads/IMG_8576.jpeg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "Enterprise Search & Discovery 2026 conference program · November 17, 2026", "uploaded": true, "showCaption": true},
+    {"src": "/assets/gallery/uploads/IMG_8577.jpeg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "Entrance to Salon D at Enterprise Search & Discovery 2026 · November 17, 2026", "uploaded": true, "showCaption": true},
     {"src": "/assets/gallery/uploads/enterprise-search-discovery-2026-speaker-badge.jpg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "Mou Rakshit’s Enterprise Search & Discovery 2026 speaker badge · November 17, 2026", "uploaded": true, "showCaption": true},
 
     {"src": "/assets/gallery/uploads/mcaps-training-2025.jpg", "group": "Microsoft MCAPS Training \u00b7 2025", "caption": "Mou Rakshit at the Unlocking Data Management and AI Workshop \u00b7 Microsoft MCAPS Training, 2025", "uploaded": true},
@@ -384,4 +386,5 @@
 
 
 })();
+
 

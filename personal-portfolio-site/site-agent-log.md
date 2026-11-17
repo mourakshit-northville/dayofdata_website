@@ -128,3 +128,11 @@ This file is the durable operating log for the MouRakshit.com site agent.
 - Expanded the event manifest and public gallery to all 13 originals in original filename order: IMG_8561, IMG_8562, IMG_8563, IMG_8564, IMG_8565, IMG_8566, IMG_8568, IMG_8569, IMG_8570, IMG_8571, IMG_8573 and IMG_8574, followed by the speaker badge. Updated the event count to 13.
 - Every published image retains the source bytes and original dimensions. The badge uses a .jpg website filename for its existing JPEG content. Scoped gallery CSS renders the entire images at natural proportions; existing full-size viewing remains available. Existing unrelated galleries are preserved.
 - Local checks cover all 13 images, SHA-256 equality, dimensions, manifest/order, CSS and JavaScript syntax. Preview, PR and production verification are tracked in the task outcome.
+
+
+
+## 2026-11-17 — Additional conference program and room photographs
+- Added both new user-supplied originals: IMG_8576.jpeg (conference program board) and IMG_8577.jpeg (Salon D entrance). The conference gallery now contains all 15 distinct supplied images, in filename order with the badge last.
+- The newly attached badge(1).jfif is an exact SHA-256 duplicate of the existing badge.jfif (546e0d3cf91ff61aba1137eb7d2acde9aa39f3ff3019ae3db576591e1ffca749), so the badge remains displayed once.
+- Preserved every original image byte and dimension and the existing natural-proportion CSS/larger viewer. Updated visible counts to 15; no curation, cropping, stretching or retouching.
+- Verified all 15 source-to-web mappings, SHA-256 equality, dimensions, order and JavaScript syntax locally. Preview and production deployment results are recorded in this task’s outcome.
