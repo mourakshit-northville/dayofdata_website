@@ -2,14 +2,21 @@
 (() => {
   "use strict";
   const root="/assets/gallery/uploads/";
-  // Only curated, approved photos are displayed; new uploads require review before public display.
+  // Display the complete user-approved conference batch; preserve all other existing event entries.
   // Verified in GitHub's 32-photo upload branch and merged into production main.
   // This manifest avoids depending on unauthenticated GitHub API requests.
   const verifiedUploads=[
-    {"src": "/assets/gallery/uploads/IMG_8566.jpeg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "Mou Rakshit presenting at Enterprise Search & Discovery 2026 · November 17, 2026", "uploaded": true, "showCaption": true},
     {"src": "/assets/gallery/uploads/IMG_8561.jpeg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "Conversational Search, Governed Data Discovery, and Quality Research · November 17, 2026", "uploaded": true, "showCaption": true},
+    {"src": "/assets/gallery/uploads/IMG_8562.jpeg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "Conference presentation at Enterprise Search & Discovery 2026 · November 17, 2026", "uploaded": true, "showCaption": true},
+    {"src": "/assets/gallery/uploads/IMG_8563.jpeg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "Conference presentation at Enterprise Search & Discovery 2026 · November 17, 2026", "uploaded": true, "showCaption": true},
     {"src": "/assets/gallery/uploads/IMG_8564.jpeg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "Working through an example of evidence-backed answers · November 17, 2026", "uploaded": true, "showCaption": true},
+    {"src": "/assets/gallery/uploads/IMG_8565.jpeg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "Conference presentation at Enterprise Search & Discovery 2026 · November 17, 2026", "uploaded": true, "showCaption": true},
+    {"src": "/assets/gallery/uploads/IMG_8566.jpeg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "Mou Rakshit presenting at Enterprise Search & Discovery 2026 · November 17, 2026", "uploaded": true, "showCaption": true},
+    {"src": "/assets/gallery/uploads/IMG_8568.jpeg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "Conference presentation at Enterprise Search & Discovery 2026 · November 17, 2026", "uploaded": true, "showCaption": true},
+    {"src": "/assets/gallery/uploads/IMG_8569.jpeg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "Conference presentation at Enterprise Search & Discovery 2026 · November 17, 2026", "uploaded": true, "showCaption": true},
+    {"src": "/assets/gallery/uploads/IMG_8570.jpeg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "Conference presentation at Enterprise Search & Discovery 2026 · November 17, 2026", "uploaded": true, "showCaption": true},
     {"src": "/assets/gallery/uploads/IMG_8571.jpeg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "Mou Rakshit and Jonathan Thill during the shared session · November 17, 2026", "uploaded": true, "showCaption": true},
+    {"src": "/assets/gallery/uploads/IMG_8573.jpeg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "Conference presentation at Enterprise Search & Discovery 2026 · November 17, 2026", "uploaded": true, "showCaption": true},
     {"src": "/assets/gallery/uploads/IMG_8574.jpeg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "After the session at Enterprise Search & Discovery 2026 · November 17, 2026", "uploaded": true, "showCaption": true},
     {"src": "/assets/gallery/uploads/enterprise-search-discovery-2026-speaker-badge.jpg", "group": "Enterprise Search & Discovery 2026 · Washington, DC", "caption": "Mou Rakshit’s Enterprise Search & Discovery 2026 speaker badge · November 17, 2026", "uploaded": true, "showCaption": true},
 
@@ -355,9 +362,12 @@
     function render(){
       const selected=selector?.value||"All events";
       visible=items.filter(i=>selected==="All events"||i.group===selected);
+      const count=document.querySelector("[data-added-count]");
+      if(count)count.textContent=selected==="Enterprise Search & Discovery 2026 · Washington, DC"?visible.length+" conference photographs":visible.length+" photographs";
       list.replaceChildren();
       visible.forEach((it,i)=>{
         const fig=document.createElement("figure"),btn=document.createElement("button");
+        if(it.group==="Enterprise Search & Discovery 2026 · Washington, DC")fig.classList.add("enterprise-search-photo");
         btn.className="gallery-photo-open";btn.type="button";btn.setAttribute("aria-label","View "+it.caption+" in slideshow");btn.appendChild(addImage(it.src,it.caption));
         btn.addEventListener("click",()=>openPhoto(i));
         const cap=document.createElement("figcaption");cap.textContent=displayCaption(it);
@@ -371,7 +381,7 @@
   const initial=audienceFirst([...curated,...verifiedUploads]);
   initRotator(initial.filter(p=>!/session-card/.test(p.src)));
   initGallery(initial);
-  const count=document.querySelector("[data-added-count]");
-  if(count)count.textContent=verifiedUploads.length+" approved uploaded photos and "+curated.length+" earlier event images.";
+
 
 })();
+

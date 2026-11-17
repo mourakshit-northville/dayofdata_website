@@ -120,3 +120,11 @@ This file is the durable operating log for the MouRakshit.com site agent.
 - Added the six selected original conference photographs in this order: IMG_8566.jpeg, IMG_8561.jpeg, IMG_8564.jpeg, IMG_8571.jpeg, IMG_8574.jpeg, and the speaker badge (saved as enterprise-search-discovery-2026-speaker-badge.jpg). All image bytes, dimensions and natural proportions are preserved.
 - Registered the new event group in verifiedUploads, added a direct event-filter link, and added a concise recap with the organizer session link. Existing unrelated event images and audience-first ordering are preserved.
 - Local verification: all six original JPEGs decode; copied bytes match originals; JavaScript syntax, new manifest order, event filter, six image paths and original dimensions checked. Preview/PR and production validation are recorded in this task’s final outcome.
+
+
+
+## 2026-11-17 — Complete conference photo batch, as requested
+- Mou explicitly requested all shared photographs on both websites, with no selection, cropping, distortion or retouching. This supersedes the earlier six-photo selection.
+- Expanded the event manifest and public gallery to all 13 originals in original filename order: IMG_8561, IMG_8562, IMG_8563, IMG_8564, IMG_8565, IMG_8566, IMG_8568, IMG_8569, IMG_8570, IMG_8571, IMG_8573 and IMG_8574, followed by the speaker badge. Updated the event count to 13.
+- Every published image retains the source bytes and original dimensions. The badge uses a .jpg website filename for its existing JPEG content. Scoped gallery CSS renders the entire images at natural proportions; existing full-size viewing remains available. Existing unrelated galleries are preserved.
+- Local checks cover all 13 images, SHA-256 equality, dimensions, manifest/order, CSS and JavaScript syntax. Preview, PR and production verification are tracked in the task outcome.
