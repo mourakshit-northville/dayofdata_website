@@ -140,7 +140,12 @@ This file is the durable operating log for the MouRakshit.com site agent.
 
 
 ## 2026-11-23 — Databricks Certification Roadmap recording prepared
-- Mou confirmed delivering the November 23 Databricks Detroit SouthEast Michigan User Group session and supplied https://youtu.be/EtsZRl6cAX0 for publication on her websites. The official event listing at https://usergroups.databricks.com/e/m9pxy9/ supports the date, certification paths, official resources, 30-day study plan and Q&A.
+- Mou confirmed delivering the November 23 Databricks Detroit SouthEast Michigan User Group session and supplied https://youtu.be/Emb7h-srPgM for publication on her websites. The official event listing at https://usergroups.databricks.com/e/m9pxy9/ supports the date, certification paths, official resources, 30-day study plan and Q&A.
 - Added a responsive, titled, lazy-loaded YouTube player and direct-watch fallback to the Speaking page, one corresponding delivered-session entry, and a concise homepage link. Existing November 20 and November 5 Fabric recordings, images and unrelated event history remain unchanged.
 - Branch: portfolio-2026-11-23-databricks-recording. Source validation checks the embed/video ID, responsive styles, unique event anchors and retained recording links. Preview and PR verification are recorded separately; production publication is not claimed by this preparation entry.
-- Publication remains pending verification of the supplied video. No recording-duration or full-session claim is added.
+- Publication remains pending verification of the corrected video source and coordinated release. No recording-duration or full-session claim is added.
+
+## 2026-11-24 — Corrected Databricks recording source
+- Mou supplied https://youtu.be/Emb7h-srPgM after correcting the recording download and explicitly requested publication on both websites. Updated the Speaking page player and direct-watch link to this corrected source in PR #53: https://github.com/mourakshit-northville/dayofdata_website/pull/53 .
+- This follow-up changes only the recording URL and this log; the delivered-session entry, homepage link, responsive styles and existing recording cards remain unchanged. Source checks confirm the old video ID is absent from all four task files and both player and fallback use the corrected ID.
+- Exact-head preview, public video playback and production verification are tracked in the PR and release outcome. This entry does not claim production publication.
