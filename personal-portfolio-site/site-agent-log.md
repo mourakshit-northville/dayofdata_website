@@ -136,3 +136,11 @@ This file is the durable operating log for the MouRakshit.com site agent.
 - The newly attached badge(1).jfif is an exact SHA-256 duplicate of the existing badge.jfif (546e0d3cf91ff61aba1137eb7d2acde9aa39f3ff3019ae3db576591e1ffca749), so the badge remains displayed once.
 - Preserved every original image byte and dimension and the existing natural-proportion CSS/larger viewer. Updated visible counts to 15; no curation, cropping, stretching or retouching.
 - Verified all 15 source-to-web mappings, SHA-256 equality, dimensions, order and JavaScript syntax locally. Preview and production deployment results are recorded in this task’s outcome.
+
+
+
+## 2026-11-23 — Databricks Certification Roadmap recording prepared
+- Mou confirmed delivering the November 23 Databricks Detroit SouthEast Michigan User Group session and supplied https://youtu.be/EtsZRl6cAX0 for publication on her websites. The official event listing at https://usergroups.databricks.com/e/m9pxy9/ supports the date, certification paths, official resources, 30-day study plan and Q&A.
+- Added a responsive, titled, lazy-loaded YouTube player and direct-watch fallback to the Speaking page, one corresponding delivered-session entry, and a concise homepage link. Existing November 20 and November 5 Fabric recordings, images and unrelated event history remain unchanged.
+- Branch: portfolio-2026-11-23-databricks-recording. Source validation checks the embed/video ID, responsive styles, unique event anchors and retained recording links. Preview and PR verification are recorded separately; production publication is not claimed by this preparation entry.
+- Publication remains pending verification of the supplied video. No recording-duration or full-session claim is added.
