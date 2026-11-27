@@ -156,3 +156,10 @@ This file is the durable operating log for the MouRakshit.com site agent.
 - Added the user-supplied 2048×1536 group photo to MouRakshit.com and MichiganDataAI.org as a community learning photo without assigning an unverified event name or date. Moved the October 30 MITechCon reference below the confirmed upcoming session on the Speaking page.
 - Added the confirmed December 3 listing to MichiganDataAI.org. The December 18 event was not added because its Sessionize entry and event title could not be verified.
 - Merged MouRakshit.com PR #54 (commit a83c0ec44b10aaec99f76e5bf749b50c763b6cee) and MichiganDataAI.org PR #16 (commit 1816c8334fee233d4815dfe7da90477852685db6). Both Vercel preview builds were READY. Production deployments reached READY; the live homepage, Speaking page, photo gallery, Events page, archive page and both image URLs returned HTTP 200 with the expected content. Manual browser-based visual inspection was not available.
+
+
+## 2026-11-27 — LinkedIn article inventory reconciled
+- Reviewed the current LinkedIn Articles activity page and verified 18 published technical articles, including the November 23 article “Microsoft Fabric after Ignite 2026,” which compares the Ignite announcements with FabCon Barcelona.
+- Compared the 18 LinkedIn permalinks with the 26-entry portfolio archive. The November 23 article was the only LinkedIn article missing there. Added it at the top of the Writing archive, updated the archive count to 27 total publications, and featured it in the homepage Recent Writing row.
+- Verified the article title, date and direct permalink from LinkedIn. The community site's writing page is being updated with a separate index of the 18 LinkedIn technical articles alongside its two Databricks Community articles.
+- Source updates are on branch `linkedin-article-sync-2026-11-27`; production verification will be recorded after release.
