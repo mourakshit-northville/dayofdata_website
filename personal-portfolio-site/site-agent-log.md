@@ -161,5 +161,5 @@ This file is the durable operating log for the MouRakshit.com site agent.
 ## 2026-11-27 — LinkedIn article inventory reconciled
 - Reviewed the current LinkedIn Articles activity page and verified 18 published technical articles, including the November 23 article “Microsoft Fabric after Ignite 2026,” which compares the Ignite announcements with FabCon Barcelona.
 - Compared the 18 LinkedIn permalinks with the 26-entry portfolio archive. The November 23 article was the only LinkedIn article missing there. Added it at the top of the Writing archive, updated the archive count to 27 total publications, and featured it in the homepage Recent Writing row.
-- Verified the article title, date and direct permalink from LinkedIn. The community site's writing page is being updated with a separate index of the 18 LinkedIn technical articles alongside its two Databricks Community articles.
+- Verified the article title, date and direct permalink from LinkedIn. Added a separate index of the 18 LinkedIn technical articles to MichiganDataAI.org/writing.html alongside its two Databricks Community articles.
 - Source updates are on branch `linkedin-article-sync-2026-11-27`; production verification will be recorded after release.
