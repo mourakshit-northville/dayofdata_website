@@ -149,3 +149,10 @@ This file is the durable operating log for the MouRakshit.com site agent.
 - Mou supplied https://youtu.be/Emb7h-srPgM after correcting the recording download and explicitly requested publication on both websites. Updated the Speaking page player and direct-watch link to this corrected source in PR #53: https://github.com/mourakshit-northville/dayofdata_website/pull/53 .
 - This follow-up changes only the recording URL and this log; the delivered-session entry, homepage link, responsive styles and existing recording cards remain unchanged. Source checks confirm the old video ID is absent from all four task files and both player and fallback use the corrected ID.
 - Exact-head preview, public video playback and production verification are tracked in the PR and release outcome. This entry does not claim production publication.
+
+
+## 2026-11-27 — December speaking update and community photo
+- Verified Philippa Burgess’s forwarded invitation for Microsoft Fabric Data Days: Let’s Get Certified DP-800 Encore on December 3, 2026. Mou is confirmed for Session 1, “Database Design, Advanced T-SQL and JSON,” 7:00–7:45 AM ET; the program runs 6:30–10:45 AM ET. Added the Luma event link. The November 23 Databricks Certification Roadmap recording was already present and remains listed.
+- Added the user-supplied 2048×1536 group photo to MouRakshit.com and MichiganDataAI.org as a community learning photo without assigning an unverified event name or date. Moved the October 30 MITechCon reference below the confirmed upcoming session on the Speaking page.
+- Added the confirmed December 3 listing to MichiganDataAI.org. The December 18 event was not added because its Sessionize entry and event title could not be verified.
+- Merged MouRakshit.com PR #54 (commit a83c0ec44b10aaec99f76e5bf749b50c763b6cee) and MichiganDataAI.org PR #16 (commit 1816c8334fee233d4815dfe7da90477852685db6). Both Vercel preview builds were READY. Production deployments reached READY; the live homepage, Speaking page, photo gallery, Events page, archive page and both image URLs returned HTTP 200 with the expected content. Manual browser-based visual inspection was not available.
